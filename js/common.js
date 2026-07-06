@@ -229,6 +229,25 @@
     return "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(q.trim());
   };
 
+  // 임의의 한글 지역 라벨(nameEn 없음, 괄호에 국가 병기 등)을 구글 지도 검색 링크로 변환.
+  // 예: "보르도(프랑스)" -> "보르도 프랑스 와인 산지", "칠레" -> "칠레 와인 산지".
+  // regions.json 항목과 매칭할 필요가 없어 데이터 누락에 강하다(품종 주요 재배 지역용).
+  WineUtil.mapUrlFromLabel = function (label) {
+    var q = String(label || "")
+      .replace(/[()（）:：·]/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+    return "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(q + " 와인 산지");
+  };
+
+  // 지역 라벨 배열을 각각 구글 지도로 열리는 인라인 링크로 감싸 ", "로 join한다.
+  // extLink가 내부에서 escapeHtml을 처리하므로 여기서는 원문 label을 그대로 넘긴다(이중 이스케이프 방지).
+  WineUtil.mapLinkifyRegions = function (regions) {
+    return (regions || []).map(function (label) {
+      return WineUtil.extLink(WineUtil.mapUrlFromLabel(label), label + " 🗺️");
+    }).join(", ");
+  };
+
   // 출처 표기를 클릭 가능한 링크로 렌더링한다.
   // item.refs([{label,url}])가 있으면 각각 링크로, item.sourceUrl이 있으면 item.source를 그 링크로,
   // 둘 다 없으면 item.source를 텍스트만(링크 없음) 반환한다.

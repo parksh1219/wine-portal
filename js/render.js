@@ -125,7 +125,7 @@
         '  <p><strong>대표 향미:</strong> ' + g.aromas.map(function (a) {
           return U.linkifyByDictionary(a, window.WINE_DATA.aromas, "aroma", "guide.html");
         }).join(", ") + '</p>' +
-        '  <p><strong>주요 재배 지역:</strong> ' + U.escapeHtml(g.regions.join(", ")) + '</p>' +
+        '  <p><strong>주요 재배 지역:</strong> ' + U.mapLinkifyRegions(g.regions) + '</p>' +
         '  <p><strong>초심자 팁:</strong> ' + U.escapeHtml(g.beginnerTip) + '</p>' +
         '  <p>' + U.extLink(U.wikiUrl(g.name), '📖 위키백과에서 보기(사진·상세)') + '</p>' +
         '  <p class="source-note">출처: ' + U.refsHtml(g) + '</p>' +
