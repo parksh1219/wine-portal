@@ -1,0 +1,307 @@
+{
+  "_note": "이 파일은 개별 상품에 대한 평론가·소비자 리뷰 원자료가 조사에서 확보되지 않아, 조사된 품종·산지·가격대 사실에 근거한 '대표 스타일 소개 카드'로 구성했다. 고정된 별점(평점) 필드는 포함하지 않는다 — 카드별 별점은 사이트에서 사용자가 직접 매기는 개인 평가이며 localStorage(wine_tastings)에 저장된다. 자세한 내용은 02_build_spec.md의 '리뷰·평점 페이지 설계 원칙' 참고.",
+  "items": [
+    {
+      "id": "bordeaux-left-bank-blend",
+      "wineName": "보르도 좌안 블렌드 (메독 스타일)",
+      "type": "red",
+      "grape": "카베르네 소비뇽 중심 블렌드",
+      "region": "보르도(프랑스)",
+      "priceTier": "mid",
+      "body": "풀바디",
+      "description": "지롱드강 좌안의 자갈질 토양에서 나는 카베르네 소비뇽 중심 블렌드. 골격이 탄탄하고 블랙커런트·시더우드 풍미가 도드라진다.",
+      "pairingHint": "스테이크 등 기름진 붉은 육류 — 지방이 탄닌을 부드럽게 중화시킨다.",
+      "source": "_workspace/01_knowledge_regions.md(보르도), 01_knowledge_grapes.md(카베르네 소비뇽), 01_market_price.md(미들 구간)",
+      "refs": [
+        {
+          "label": "와인 노트(conginfo.com)",
+          "url": "https://conginfo.com/entry/레드-와인-포도-품종-느낌으로-쉽게-알아보기"
+        },
+        {
+          "label": "Vinodivino, What Is An Old World Wine",
+          "url": "https://vinodivino.com/blogs/blog/what-is-an-old-world-wine"
+        }
+      ]
+    },
+    {
+      "id": "napa-cabernet-sauvignon",
+      "wineName": "나파밸리 카베르네 소비뇽",
+      "type": "red",
+      "grape": "카베르네 소비뇽",
+      "region": "나파밸리(미국)",
+      "priceTier": "premium",
+      "body": "풀바디",
+      "description": "따뜻하고 건조한 캘리포니아 기후에서 나는 진하고 힘 있는 스타일. 오크 숙성을 거쳐 바닐라·담배 향이 더해지는 경우가 많은 프리미엄·아이콘 와인 산지.",
+      "pairingHint": "스테이크 등 기름진 붉은 육류.",
+      "source": "_workspace/01_knowledge_regions.md(나파밸리), 01_knowledge_grapes.md(카베르네 소비뇽), 01_market_price.md(프리미엄 구간)",
+      "refs": [
+        {
+          "label": "와인 노트(conginfo.com)",
+          "url": "https://conginfo.com/entry/레드-와인-포도-품종-느낌으로-쉽게-알아보기"
+        },
+        {
+          "label": "Global Wine Authority",
+          "url": "https://globalwineauthority.com/new-world-wine-regions/"
+        }
+      ]
+    },
+    {
+      "id": "pomerol-right-bank-blend",
+      "wineName": "보르도 우안 블렌드 (포므롤·생테밀리옹 스타일)",
+      "type": "red",
+      "grape": "메를로 중심 블렌드",
+      "region": "보르도(프랑스)",
+      "priceTier": "premium",
+      "body": "미디엄~풀바디",
+      "description": "점토질 토양의 우안에서 메를로가 중심이 되어 만드는 스타일로 좌안보다 더 부드럽고 자두 풍미가 풍부하다.",
+      "pairingHint": "탄닌이 부담스러운 레드 초보자에게 추천되는 첫 레드 스타일.",
+      "source": "_workspace/01_knowledge_regions.md(보르도), 01_knowledge_grapes.md(메를로)",
+      "refs": [
+        {
+          "label": "와인 노트(conginfo.com)",
+          "url": "https://conginfo.com/entry/레드-와인-포도-품종-느낌으로-쉽게-알아보기"
+        },
+        {
+          "label": "Vinodivino, What Is An Old World Wine",
+          "url": "https://vinodivino.com/blogs/blog/what-is-an-old-world-wine"
+        }
+      ]
+    },
+    {
+      "id": "bourgogne-pinot-noir",
+      "wineName": "부르고뉴 피노 누아 (코트 도르 스타일)",
+      "type": "red",
+      "grape": "피노 누아",
+      "region": "부르고뉴(프랑스)",
+      "priceTier": "premium",
+      "body": "라이트~미디엄바디",
+      "description": "클리마(밭 단위 구획) 하나하나가 개성을 갖는다는 믿음이 강한 산지. 체리·딸기 향과 함께 숙성되면 흙·버섯 부케가 나타난다.",
+      "pairingHint": "연어(구운/훈제) — 기름진 질감이 부드러운 탄닌·붉은 과일 풍미와 맞아떨어진다.",
+      "source": "_workspace/01_knowledge_regions.md(부르고뉴), 01_knowledge_grapes.md(피노 누아), 01_knowledge_pairing.md(조합 6)",
+      "refs": [
+        {
+          "label": "와인 노트(conginfo.com)",
+          "url": "https://conginfo.com/entry/레드-와인-포도-품종-느낌으로-쉽게-알아보기"
+        },
+        {
+          "label": "Bernard Marr's Wine Guide",
+          "url": "https://bmwineguide.co.uk/in-introduction-to-the-worlds-most-important-wine-regions/"
+        }
+      ]
+    },
+    {
+      "id": "chablis-unoaked-chardonnay",
+      "wineName": "샤블리 (비오크 샤르도네)",
+      "type": "white",
+      "grape": "샤르도네",
+      "region": "부르고뉴 샤블리(프랑스)",
+      "priceTier": "mid",
+      "body": "라이트~미디엄바디(비오크)",
+      "description": "오크 숙성 없이 스테인리스 탱크에서 만들어 가볍고 상큼한 시트러스·사과 풍미가 나는 스타일.",
+      "pairingHint": "생굴 — 높은 산도·미네랄리티가 굴의 짠맛·바다향과 신선함을 극대화한다.",
+      "source": "_workspace/01_knowledge_grapes.md(샤르도네), 01_knowledge_pairing.md(조합 2)",
+      "refs": [
+        {
+          "label": "Wine Folly, Basic Guide to White Wine",
+          "url": "https://winefolly.com/deep-dive/beginners-white-wines-list/"
+        },
+        {
+          "label": "Bernard Marr's Wine Guide",
+          "url": "https://bmwineguide.co.uk/in-introduction-to-the-worlds-most-important-wine-regions/"
+        }
+      ]
+    },
+    {
+      "id": "marlborough-sauvignon-blanc",
+      "wineName": "말버러 소비뇽 블랑",
+      "type": "white",
+      "grape": "소비뇽 블랑",
+      "region": "말버러(뉴질랜드)",
+      "priceTier": "daily",
+      "body": "라이트~미디엄바디",
+      "description": "서늘한 해양성 기후와 강한 일조량이 만나 자몽·패션프루트·풋풀 향이 강렬하게 살아있는 개성 강한 스타일.",
+      "pairingHint": "크림 파스타·리소토 또는 염소치즈 — 산도가 크리미함을 개운하게 정리한다.",
+      "source": "_workspace/01_knowledge_regions.md(말버러), 01_knowledge_grapes.md(소비뇽 블랑), 01_knowledge_pairing.md(조합 4·7)",
+      "refs": [
+        {
+          "label": "Amsterdam Wine Academy",
+          "url": "https://amsterdamwineacademy.com/en/top-10-white-grape-varieties-and-their-flavor-profiles/"
+        },
+        {
+          "label": "Global Wine Authority, New World Wine Regions",
+          "url": "https://globalwineauthority.com/new-world-wine-regions/"
+        }
+      ]
+    },
+    {
+      "id": "mosel-riesling",
+      "wineName": "모젤 리슬링",
+      "type": "white",
+      "grape": "리슬링",
+      "region": "모젤(독일)",
+      "priceTier": "mid",
+      "body": "라이트~미디엄바디",
+      "description": "슬레이트 급경사지에서 나는 산도가 매우 높고 미네랄리티가 강한 스타일. 카비네트~트로켄베렌아우스레제 등 당도별 등급이 있다.",
+      "pairingHint": "매운 태국·아시아 음식(오프-드라이 스타일) — 단맛이 매운맛을 진정시킨다.",
+      "source": "_workspace/01_knowledge_regions.md(모젤), 01_knowledge_grapes.md(리슬링), 01_knowledge_pairing.md(조합 3)",
+      "refs": [
+        {
+          "label": "Amsterdam Wine Academy",
+          "url": "https://amsterdamwineacademy.com/en/top-10-white-grape-varieties-and-their-flavor-profiles/"
+        },
+        {
+          "label": "oboe.com, Old World Wine Regions",
+          "url": "https://oboe.com/learn/mastering-wset-level-3-wine-knowledge-gzqzry/old-world-wine-regions-2"
+        }
+      ]
+    },
+    {
+      "id": "chianti-classico",
+      "wineName": "키안티 클라시코",
+      "type": "red",
+      "grape": "산지오베제",
+      "region": "토스카나(이탈리아)",
+      "priceTier": "mid",
+      "body": "미디엄바디",
+      "description": "밝은 루비색에 높은 산도와 단단한 탄닌, 체리·흙의 세이보리 풍미를 가진 이탈리아 대표 레드.",
+      "pairingHint": "토마토 소스 파스타·피자 — 토마토의 산미와 산지오베제의 높은 산도가 조화를 이루는 지역 궁합.",
+      "source": "_workspace/01_knowledge_regions.md(토스카나), 01_knowledge_grapes.md(산지오베제), 01_knowledge_pairing.md(조합 5)",
+      "refs": [
+        {
+          "label": "Hospitality.Institute, Old World Wines",
+          "url": "https://hospitality.institute/bha203/old-world-wines-europe-journey/"
+        }
+      ]
+    },
+    {
+      "id": "rioja-reserva",
+      "wineName": "리오하 레세르바",
+      "type": "red",
+      "grape": "템프라니요",
+      "region": "리오하(스페인)",
+      "priceTier": "mid",
+      "body": "미디엄~풀바디",
+      "description": "오크 숙성 기간이 긴 등급(레세르바)으로, 체리·자두 향에 바닐라·가죽 뉘앙스가 더해진 부드럽고 복합적인 스타일.",
+      "pairingHint": "육류 요리 전반과 잘 맞는다.",
+      "source": "_workspace/01_knowledge_regions.md(리오하), 01_knowledge_grapes.md(템프라니요)",
+      "refs": [
+        {
+          "label": "viavinumwinetours, Wine Region Maps",
+          "url": "https://viavinumwinetours.com/en/wine-region-maps/"
+        }
+      ]
+    },
+    {
+      "id": "mendoza-malbec",
+      "wineName": "멘도사 말벡",
+      "type": "red",
+      "grape": "말벡",
+      "region": "멘도사(아르헨티나)",
+      "priceTier": "daily",
+      "body": "풀바디",
+      "description": "안데스 산기슭 고지대의 큰 일교차가 산도를 지킨 채 진하고 부드러운 탄닌을 만든다. 짙은 색과 실키한 질감의 \"블랙 와인\".",
+      "pairingHint": "삼겹살·기름진 돼지고기 요리 — 실키한 탄닌이 기름기를 잡아준다.",
+      "source": "_workspace/01_knowledge_regions.md(멘도사), 01_knowledge_grapes.md(말벡), 01_knowledge_pairing.md(조합 11)",
+      "refs": [
+        {
+          "label": "Global Wine Authority, New World Wine Regions",
+          "url": "https://globalwineauthority.com/new-world-wine-regions/"
+        }
+      ]
+    },
+    {
+      "id": "barolo-nebbiolo",
+      "wineName": "바롤로 / 바르바레스코",
+      "type": "red",
+      "grape": "네비올로",
+      "region": "피에몬테(이탈리아)",
+      "priceTier": "premium",
+      "body": "미디엄~풀바디",
+      "description": "\"와인의 왕\"으로 불리는 장기 숙성형 와인. 색은 옅은 편이지만 탄닌·산도가 매우 강하며 장미·타르·말린 체리 향이 특징적이다.",
+      "pairingHint": "어릴 때는 탄닌이 강하므로 디캔팅하거나 숙성된 빈티지를 권장.",
+      "source": "_workspace/01_knowledge_regions.md(피에몬테), 01_knowledge_grapes.md(네비올로)",
+      "refs": [
+        {
+          "label": "oboe.com, Old World Wine Regions",
+          "url": "https://oboe.com/learn/mastering-wset-level-3-wine-knowledge-gzqzry/old-world-wine-regions-2"
+        },
+        {
+          "label": "Vinodivino, What Is An Old World Wine",
+          "url": "https://vinodivino.com/blogs/blog/what-is-an-old-world-wine"
+        }
+      ]
+    },
+    {
+      "id": "barossa-shiraz",
+      "wineName": "바로사밸리 쉬라즈",
+      "type": "red",
+      "grape": "쉬라즈",
+      "region": "바로사밸리(호주)",
+      "priceTier": "mid",
+      "body": "풀바디",
+      "description": "따뜻한 대륙성 기후에서 블랙베리·자두 등 잼처럼 농축된 과실미와 초콜릿·스파이스 풍미를 내는 진하고 힘 있는 스타일. 100년 넘은 올드바인도 남아있다.",
+      "pairingHint": "양갈비·바비큐 등 스파이시한 육류 — 후추·스파이스 풍미가 양념과 공명한다.",
+      "source": "_workspace/01_knowledge_regions.md(바로사밸리), 01_knowledge_grapes.md(시라/쉬라즈), 01_knowledge_pairing.md(조합 10)",
+      "refs": [
+        {
+          "label": "Global Wine Authority, New World Wine Regions",
+          "url": "https://globalwineauthority.com/new-world-wine-regions/"
+        }
+      ]
+    },
+    {
+      "id": "italian-pinot-grigio",
+      "wineName": "이탈리아 피노 그리지오",
+      "type": "white",
+      "grape": "피노 그리지오",
+      "region": "이탈리아 북부",
+      "priceTier": "daily",
+      "body": "라이트~미디엄바디",
+      "description": "가볍고 담백하며 크리스프한 산도가 특징인, 부담 없이 접근하기 좋은 화이트.",
+      "pairingHint": "해산물 전채.",
+      "source": "_workspace/01_knowledge_grapes.md(피노 그리지오/피노 그리)",
+      "refs": [
+        {
+          "label": "Wine Folly, Pinot Gris vs Pinot Grigio",
+          "url": "https://winefolly.com/deep-dive/whats-the-difference-between-pinot-gris-and-pinot-grigio/"
+        }
+      ]
+    },
+    {
+      "id": "moscato-dasti",
+      "wineName": "모스카토 다스티",
+      "type": "white",
+      "grape": "모스카토",
+      "region": "피에몬테 아스티(이탈리아)",
+      "priceTier": "daily",
+      "body": "라이트바디",
+      "description": "허니서클·백화 향이 강하고 약발포성에 당도가 있으며 알코올 도수가 5~7%로 낮은 디저트/입문용 와인.",
+      "pairingHint": "초콜릿 등 디저트 — \"와인은 음식보다 달아야 한다\" 원칙에 부합.",
+      "source": "_workspace/01_knowledge_grapes.md(모스카토), 01_knowledge_pairing.md(조합 9, 원리 참고)",
+      "refs": [
+        {
+          "label": "terravenos, Moscato vs Pinot Grigio",
+          "url": "https://terravenos.com/trellis/moscato-vs-pinot-grigio/"
+        }
+      ]
+    },
+    {
+      "id": "alsace-gewurztraminer",
+      "wineName": "알자스 게뷔르츠트라미너",
+      "type": "white",
+      "grape": "게뷔르츠트라미너",
+      "region": "알자스(프랑스)",
+      "priceTier": "mid",
+      "body": "미디엄~풀바디",
+      "description": "리치·장미꽃잎·망고 등 화려한 향이 피어오르는 아로마틱 화이트. 산도는 낮고 질감이 풍성하며 대체로 오프-드라이 스타일이 많다.",
+      "pairingHint": "향신료가 강한 아시아 음식(태국·인도 요리).",
+      "source": "_workspace/01_knowledge_grapes.md(게뷔르츠트라미너)",
+      "refs": [
+        {
+          "label": "Wine Folly, The Comprehensive Guide to Gewürztraminer",
+          "url": "https://winefolly.com/grapes/gewurztraminer/"
+        }
+      ]
+    }
+  ]
+}

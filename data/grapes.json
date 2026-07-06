@@ -1,0 +1,417 @@
+[
+  {
+    "id": "cabernet-sauvignon",
+    "name": "카베르네 소비뇽",
+    "nameEn": "Cabernet Sauvignon",
+    "color": "red",
+    "aromas": [
+      "블랙커런트(카시스)",
+      "자두",
+      "시더우드(삼나무)",
+      "피망(서늘한 산지)"
+    ],
+    "body": "풀바디",
+    "regions": [
+      "보르도(프랑스)",
+      "나파밸리(미국)",
+      "칠레",
+      "쿠나와라(호주)"
+    ],
+    "description": "\"레드 와인의 왕\"으로 불리는 세계에서 가장 널리 재배되는 레드 품종. 껍질이 두껍고 씨가 커서 탄닌 함량이 높으며 짙은 색과 장기 숙성력이 특징이다. 오크 숙성과 궁합이 좋아 바닐라·담배 향이 더해지는 경우가 많다.",
+    "beginnerTip": "탄닌이 강해 입안이 마르는 느낌이 들면 스테이크 등 기름진 육류와 함께 마시면 훨씬 부드럽게 느껴진다.",
+    "source": "와인 노트(conginfo.com); 프랑스 레드 와인 정리(mojji.bravohsc.com) — _workspace/01_knowledge_grapes.md",
+    "refs": [
+      {
+        "label": "와인 노트(conginfo.com)",
+        "url": "https://conginfo.com/entry/레드-와인-포도-품종-느낌으로-쉽게-알아보기"
+      },
+      {
+        "label": "프랑스 레드 와인 정리(mojji.bravohsc.com)",
+        "url": "https://mojji.bravohsc.com/entry/프랑스-레드-와인-까베르네-소비뇽-피노누아-메를로-시라-포도-품종-정리"
+      }
+    ]
+  },
+  {
+    "id": "merlot",
+    "name": "메를로",
+    "nameEn": "Merlot",
+    "color": "red",
+    "aromas": [
+      "자두",
+      "블랙체리",
+      "초콜릿·모카"
+    ],
+    "body": "미디엄~풀바디",
+    "regions": [
+      "보르도 우안: 포므롤·생테밀리옹(프랑스)",
+      "캘리포니아(미국)",
+      "칠레"
+    ],
+    "description": "카베르네 소비뇽보다 부드럽고 둥근 질감의 레드 품종. 탄닌이 상대적으로 부드럽고 과즙미가 풍부해 단독으로도, 카베르네 소비뇽과의 블렌딩(보르도 우안 스타일)으로도 널리 쓰인다.",
+    "beginnerTip": "탄닌이 부담스러운 레드 와인 초보자에게 첫 레드로 추천되는 품종이다.",
+    "source": "와인 노트(conginfo.com); Wine Folly, Defining Medium-Bodied Red Wines — _workspace/01_knowledge_grapes.md",
+    "refs": [
+      {
+        "label": "와인 노트(conginfo.com)",
+        "url": "https://conginfo.com/entry/레드-와인-포도-품종-느낌으로-쉽게-알아보기"
+      },
+      {
+        "label": "Wine Folly, Defining Medium-Bodied Red Wines",
+        "url": "https://winefolly.com/deep-dive/medium-bodied-red-wines/"
+      }
+    ]
+  },
+  {
+    "id": "pinot-noir",
+    "name": "피노 누아",
+    "nameEn": "Pinot Noir",
+    "color": "red",
+    "aromas": [
+      "체리",
+      "딸기",
+      "흙·버섯(숙성 시)"
+    ],
+    "body": "라이트~미디엄바디",
+    "regions": [
+      "부르고뉴 코트 도르(프랑스)",
+      "오리건·소노마(미국)",
+      "센트럴 오타고(뉴질랜드)"
+    ],
+    "description": "가볍고 섬세한 레드 품종으로 재배가 까다로워 \"재배자의 무덤\"이라 불리기도 한다. 껍질이 얇아 색과 탄닌이 옅고, 서늘한 기후에서 가장 섬세하게 표현된다.",
+    "beginnerTip": "탄닌이 약해 차게(약 13~15도) 마셔도 좋고, 연어처럼 기름진 생선과도 잘 어울린다.",
+    "source": "와인 노트(conginfo.com); Bernard Marr's Wine Guide, Burgundy — _workspace/01_knowledge_grapes.md",
+    "refs": [
+      {
+        "label": "와인 노트(conginfo.com)",
+        "url": "https://conginfo.com/entry/레드-와인-포도-품종-느낌으로-쉽게-알아보기"
+      },
+      {
+        "label": "Bernard Marr's Wine Guide, Burgundy",
+        "url": "https://bmwineguide.co.uk/in-introduction-to-the-worlds-most-important-wine-regions/"
+      }
+    ]
+  },
+  {
+    "id": "syrah-shiraz",
+    "name": "시라 / 쉬라즈",
+    "nameEn": "Syrah / Shiraz",
+    "color": "red",
+    "aromas": [
+      "블랙베리",
+      "자두",
+      "후추·감초(스파이시함)"
+    ],
+    "body": "풀바디",
+    "regions": [
+      "북부 론: 에르미타주·코트로티(프랑스)",
+      "바로사밸리(호주)"
+    ],
+    "description": "같은 품종이지만 프랑스에서는 시라, 호주에서는 쉬라즈로 불리며 스타일이 다르다. 프랑스 론의 시라는 후추·감초의 스파이시함과 미네랄이 강조되고, 호주 쉬라즈는 잼 같은 과실미와 초콜릿 풍미가 부각된다.",
+    "beginnerTip": "라벨에 \"Syrah\"면 프랑스·서늘한 스타일, \"Shiraz\"면 호주·진한 과실 스타일일 가능성이 높다.",
+    "source": "와인 노트(conginfo.com); Global Wine Authority, New World Wine Regions — _workspace/01_knowledge_grapes.md",
+    "refs": [
+      {
+        "label": "와인 노트(conginfo.com)",
+        "url": "https://conginfo.com/entry/레드-와인-포도-품종-느낌으로-쉽게-알아보기"
+      },
+      {
+        "label": "Global Wine Authority, New World Wine Regions",
+        "url": "https://globalwineauthority.com/new-world-wine-regions/"
+      }
+    ]
+  },
+  {
+    "id": "sangiovese",
+    "name": "산지오베제",
+    "nameEn": "Sangiovese",
+    "color": "red",
+    "aromas": [
+      "체리",
+      "자두",
+      "흙·허브(세이보리)"
+    ],
+    "body": "미디엄바디",
+    "regions": [
+      "토스카나: 키안티 클라시코·브루넬로 디 몬탈치노(이탈리아)"
+    ],
+    "description": "이탈리아 토스카나를 대표하는 품종으로 키안티(Chianti)의 주역. 밝은 루비색에 높은 산도와 단단한 탄닌을 지녔으며, 토마토 소스가 들어간 이탈리아 음식과 잘 어울린다.",
+    "beginnerTip": "산도가 높아 크림 파스타나 피자처럼 기름진 이탈리아 음식과 특히 잘 맞는다.",
+    "source": "Hospitality.Institute, Old World Wines; 와인 노트(conginfo.com) — _workspace/01_knowledge_grapes.md",
+    "refs": [
+      {
+        "label": "Hospitality.Institute, Old World Wines",
+        "url": "https://hospitality.institute/bha203/old-world-wines-europe-journey/"
+      },
+      {
+        "label": "와인 노트(conginfo.com)",
+        "url": "https://conginfo.com/entry/레드-와인-포도-품종-느낌으로-쉽게-알아보기"
+      }
+    ]
+  },
+  {
+    "id": "tempranillo",
+    "name": "템프라니요",
+    "nameEn": "Tempranillo",
+    "color": "red",
+    "aromas": [
+      "체리",
+      "자두",
+      "바닐라·가죽(오크 숙성 시)"
+    ],
+    "body": "미디엄~풀바디",
+    "regions": [
+      "리오하(스페인)",
+      "리베라 델 두에로(스페인)"
+    ],
+    "description": "스페인을 대표하는 레드 품종으로 리오하(Rioja) 와인의 근간. 등급(크리안사·레세르바·그란 레세르바)에 따라 오크·병 숙성 기간이 다르다.",
+    "beginnerTip": "육류 요리와 잘 맞으며, 오크 숙성 기간이 긴 \"레세르바\"·\"그란 레세르바\" 표기를 보면 더 부드럽고 복합적인 맛을 기대할 수 있다.",
+    "source": "와인 노트(conginfo.com); viavinumwinetours, Wine Region Maps — _workspace/01_knowledge_grapes.md",
+    "refs": [
+      {
+        "label": "와인 노트(conginfo.com)",
+        "url": "https://conginfo.com/entry/레드-와인-포도-품종-느낌으로-쉽게-알아보기"
+      },
+      {
+        "label": "viavinumwinetours, Wine Region Maps",
+        "url": "https://viavinumwinetours.com/en/wine-region-maps/"
+      }
+    ]
+  },
+  {
+    "id": "malbec",
+    "name": "말벡",
+    "nameEn": "Malbec",
+    "color": "red",
+    "aromas": [
+      "블랙베리",
+      "자두",
+      "스모키·초콜릿 노트"
+    ],
+    "body": "풀바디",
+    "regions": [
+      "멘도사(아르헨티나)",
+      "카오르(프랑스, 원산지)"
+    ],
+    "description": "아르헨티나의 국가대표 품종. 원산지는 프랑스 카오르지만 아르헨티나 멘도사의 고지대·건조한 기후에서 전 세계적으로 가장 유명한 스타일을 만들어낸다. 짙은 색과 실키한 질감으로 \"블랙 와인\"이라는 별명을 가졌다.",
+    "beginnerTip": "탄닌은 강하지만 질감이 부드러워 카베르네 소비뇽보다 접근하기 쉬운 풀바디 레드로 추천된다.",
+    "source": "Global Wine Authority, New World Wine Regions; 와인 노트(conginfo.com) — _workspace/01_knowledge_grapes.md",
+    "refs": [
+      {
+        "label": "Global Wine Authority, New World Wine Regions",
+        "url": "https://globalwineauthority.com/new-world-wine-regions/"
+      },
+      {
+        "label": "와인 노트(conginfo.com)",
+        "url": "https://conginfo.com/entry/레드-와인-포도-품종-느낌으로-쉽게-알아보기"
+      }
+    ]
+  },
+  {
+    "id": "nebbiolo",
+    "name": "네비올로",
+    "nameEn": "Nebbiolo",
+    "color": "red",
+    "aromas": [
+      "장미",
+      "타르",
+      "말린 체리",
+      "감초"
+    ],
+    "body": "미디엄~풀바디",
+    "regions": [
+      "피에몬테: 바롤로·바르바레스코(이탈리아)"
+    ],
+    "description": "이탈리아 피에몬테의 왕, 바롤로·바르바레스코를 만드는 품종. \"일찍 꽃 피고 늦게 익는\" 만생종으로 당도·산도·탄닌이 모두 높아 장기 숙성형 와인이 된다. 색은 옅은 편이지만 탄닌은 매우 강하다.",
+    "beginnerTip": "어릴 때는 탄닌이 매우 강하므로, 디캔팅하거나 숙성된 빈티지를 고르면 훨씬 부드럽게 즐길 수 있다.",
+    "source": "와인 노트(conginfo.com); oboe.com, Old World Wine Regions — _workspace/01_knowledge_grapes.md",
+    "refs": [
+      {
+        "label": "와인 노트(conginfo.com)",
+        "url": "https://conginfo.com/entry/레드-와인-포도-품종-느낌으로-쉽게-알아보기"
+      },
+      {
+        "label": "oboe.com, Old World Wine Regions",
+        "url": "https://oboe.com/learn/mastering-wset-level-3-wine-knowledge-gzqzry/old-world-wine-regions-2"
+      }
+    ]
+  },
+  {
+    "id": "chardonnay",
+    "name": "샤르도네",
+    "nameEn": "Chardonnay",
+    "color": "white",
+    "aromas": [
+      "사과",
+      "시트러스",
+      "버터·바닐라(오크 숙성 시)"
+    ],
+    "body": "라이트~풀바디(양조 방식에 따라 편차 큼)",
+    "regions": [
+      "부르고뉴: 샤블리·몽라셰(프랑스)",
+      "캘리포니아(미국)",
+      "호주"
+    ],
+    "description": "세계에서 가장 많이 재배되는 화이트 품종. 오크 숙성 없이 스테인리스 탱크에서 만들면 가볍고 상큼한 시트러스·사과 풍미가 나고, 오크 숙성과 말로락틱 발효를 거치면 버터·바닐라 향의 묵직한 스타일이 된다.",
+    "beginnerTip": "라벨에 \"unoaked\" 또는 \"Chablis\"가 있으면 산뜻한 스타일, \"oaked\" 또는 캘리포니아산이면 진하고 크리미한 스타일일 가능성이 크다.",
+    "source": "Wine Folly, Basic Guide to White Wine; Amsterdam Wine Academy — _workspace/01_knowledge_grapes.md",
+    "refs": [
+      {
+        "label": "Wine Folly, Basic Guide to White Wine",
+        "url": "https://winefolly.com/deep-dive/beginners-white-wines-list/"
+      },
+      {
+        "label": "Amsterdam Wine Academy",
+        "url": "https://amsterdamwineacademy.com/en/top-10-white-grape-varieties-and-their-flavor-profiles/"
+      }
+    ]
+  },
+  {
+    "id": "sauvignon-blanc",
+    "name": "소비뇽 블랑",
+    "nameEn": "Sauvignon Blanc",
+    "color": "white",
+    "aromas": [
+      "자몽",
+      "풋풀(허브)",
+      "그린애플",
+      "패션프루트(뉴질랜드)"
+    ],
+    "body": "라이트~미디엄바디",
+    "regions": [
+      "말버러(뉴질랜드)",
+      "루아르: 상세르(프랑스)",
+      "보르도 화이트(프랑스)"
+    ],
+    "description": "상쾌한 산도와 뚜렷한 아로마가 특징인 화이트 품종. 뉴질랜드 말버러산은 패션프루트 등 열대과일 향이 강하고, 프랑스 루아르(상세르)산은 미네랄리티가 강조된다.",
+    "beginnerTip": "산도가 매우 높아 차게 마시는 것이 좋고, 새콤한 소스나 염소치즈와 궁합이 좋다.",
+    "source": "Amsterdam Wine Academy; Global Wine Authority — _workspace/01_knowledge_grapes.md",
+    "refs": [
+      {
+        "label": "Amsterdam Wine Academy",
+        "url": "https://amsterdamwineacademy.com/en/top-10-white-grape-varieties-and-their-flavor-profiles/"
+      },
+      {
+        "label": "Global Wine Authority",
+        "url": "https://globalwineauthority.com/new-world-wine-regions/"
+      }
+    ]
+  },
+  {
+    "id": "riesling",
+    "name": "리슬링",
+    "nameEn": "Riesling",
+    "color": "white",
+    "aromas": [
+      "라임",
+      "복숭아",
+      "꿀",
+      "페트롤 뉘앙스(숙성 시)"
+    ],
+    "body": "라이트~미디엄바디",
+    "regions": [
+      "모젤(독일)",
+      "알자스(프랑스)",
+      "클레어밸리(호주)"
+    ],
+    "description": "드라이부터 매우 스위트까지 폭넓은 스타일을 아우르는 고산도 화이트 품종. 산도가 매우 높아 당도가 있어도 균형이 무너지지 않는다. 독일 모젤의 슬레이트 토양에서는 미네랄리티와 라임·복숭아 향이 특징적으로 나타난다.",
+    "beginnerTip": "\"단맛=저품질\"이라는 편견과 달리, 리슬링은 당도가 있어도 산도가 이를 받쳐줘 균형 잡힌 맛을 낸다.",
+    "source": "Amsterdam Wine Academy; oboe.com, Old World Wine Regions — _workspace/01_knowledge_grapes.md",
+    "refs": [
+      {
+        "label": "Amsterdam Wine Academy",
+        "url": "https://amsterdamwineacademy.com/en/top-10-white-grape-varieties-and-their-flavor-profiles/"
+      },
+      {
+        "label": "oboe.com, Old World Wine Regions",
+        "url": "https://oboe.com/learn/mastering-wset-level-3-wine-knowledge-gzqzry/old-world-wine-regions-2"
+      }
+    ]
+  },
+  {
+    "id": "pinot-grigio",
+    "name": "피노 그리지오 / 피노 그리",
+    "nameEn": "Pinot Grigio / Pinot Gris",
+    "color": "white",
+    "aromas": [
+      "그린애플",
+      "배",
+      "시트러스",
+      "미네랄"
+    ],
+    "body": "라이트~미디엄바디",
+    "regions": [
+      "이탈리아 북부",
+      "알자스(프랑스)",
+      "오리건(미국)"
+    ],
+    "description": "가볍고 산뜻한 화이트 품종. 이탈리아식 이름 \"그리지오\"와 프랑스·알자스식 이름 \"그리\"는 같은 품종이지만 스타일이 다르다 — 이탈리아 스타일은 가볍고 크리스프하며, 알자스 스타일은 더 묵직하고 향신료 뉘앙스가 있다.",
+    "beginnerTip": "가볍고 부담 없는 첫 화이트 와인으로 추천되며, 해산물 전채와 잘 맞는다.",
+    "source": "Wine Folly, Pinot Gris vs Pinot Grigio; Coravin — _workspace/01_knowledge_grapes.md",
+    "refs": [
+      {
+        "label": "Wine Folly, Pinot Gris vs Pinot Grigio",
+        "url": "https://winefolly.com/deep-dive/whats-the-difference-between-pinot-gris-and-pinot-grigio/"
+      },
+      {
+        "label": "Coravin",
+        "url": "https://www.coravin.com/blogs/community/how-does-pinot-grigio-taste"
+      }
+    ]
+  },
+  {
+    "id": "gewurztraminer",
+    "name": "게뷔르츠트라미너",
+    "nameEn": "Gewürztraminer",
+    "color": "white",
+    "aromas": [
+      "리치",
+      "장미꽃잎",
+      "망고·복숭아",
+      "생강 등 스파이스"
+    ],
+    "body": "미디엄~풀바디",
+    "regions": [
+      "알자스(프랑스)",
+      "독일",
+      "알토아디제(이탈리아)"
+    ],
+    "description": "향이 매우 화려한 아로마틱 화이트 품종. 이름의 \"게뷔르츠\"는 독일어로 \"향신료가 있는\"이라는 뜻이며, 산도는 낮고 질감이 풍성하다. 대체로 오프-드라이(약간 단맛) 스타일이 많다.",
+    "beginnerTip": "향이 워낙 강해 향신료가 많이 들어간 아시아 음식(태국·인도 요리)과 잘 어울린다.",
+    "source": "Wine Folly, The Comprehensive Guide to Gewürztraminer; Wikipedia — _workspace/01_knowledge_grapes.md",
+    "refs": [
+      {
+        "label": "Wine Folly, The Comprehensive Guide to Gewürztraminer",
+        "url": "https://winefolly.com/grapes/gewurztraminer/"
+      }
+    ]
+  },
+  {
+    "id": "moscato",
+    "name": "모스카토",
+    "nameEn": "Moscato",
+    "color": "white",
+    "aromas": [
+      "허니서클(인동초)",
+      "백화",
+      "포도",
+      "감귤"
+    ],
+    "body": "라이트바디",
+    "regions": [
+      "피에몬테: 아스티(이탈리아)"
+    ],
+    "description": "달콤하고 저알코올인 아로마틱 화이트 품종. 이탈리아의 모스카토 다스티(Moscato d'Asti)가 대표적이며, 대체로 약발포성(frizzante)에 당도가 있고 알코올 도수가 5~7%로 낮다.",
+    "beginnerTip": "달고 알코올이 낮아 와인이 처음인 사람이나 디저트 와인으로 접근하기 좋다.",
+    "source": "terravenos, Moscato vs Pinot Grigio; Amsterdam Wine Academy — _workspace/01_knowledge_grapes.md",
+    "refs": [
+      {
+        "label": "terravenos, Moscato vs Pinot Grigio",
+        "url": "https://terravenos.com/trellis/moscato-vs-pinot-grigio/"
+      },
+      {
+        "label": "Amsterdam Wine Academy",
+        "url": "https://amsterdamwineacademy.com/en/top-10-white-grape-varieties-and-their-flavor-profiles/"
+      }
+    ]
+  }
+]

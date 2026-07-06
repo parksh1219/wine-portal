@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>라벨 읽는 법 — 와인 포털</title>
+<meta name="description" content="와인 라벨의 각 부위가 무엇을 뜻하는지, 구세계·신세계 라벨은 어떻게 다르게 읽는지, 국가별 등급 표기는 무슨 의미인지 초보자 눈높이로 정리합니다.">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div id="site-header"></div>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <h1 class="section-title">라벨 읽는 법</h1>
+      <p class="section-intro">와인 라벨은 낯선 단어 투성이지만, 부위별 위치와 의미를 알면 지역명·품종명·빈티지·등급·ABV 몇 가지만으로도 병을 고를 수 있다.</p>
+
+      <div id="labels-root"></div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+
+<script>window.SITE_ROOT = "../";</script>
+<script src="../js/data.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/cellar.js"></script>
+<script src="../js/render.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    Render.initLabels();
+  });
+</script>
+</body>
+</html>

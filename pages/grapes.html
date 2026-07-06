@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>품종 — 와인 포털</title>
+<meta name="description" content="레드 8종, 화이트 6종 포도 품종의 향미·바디·주요 재배 지역을 한눈에 살펴봅니다.">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div id="site-header"></div>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <h1 class="section-title">품종</h1>
+      <p class="section-intro">와인의 개성을 결정하는 가장 기본적인 요소는 포도 품종이다. 같은 산지에서도 품종이 다르면 향과 맛이 크게 달라진다. 전문용어는 처음 등장할 때 짧게 풀이한다 — 예: 탄닌(떫은맛을 내는 성분).</p>
+
+      <div class="filter-bar">
+        <div class="tab-group" id="grapes-color-tabs">
+          <button type="button" class="tab-btn active" data-color="all">전체</button>
+          <button type="button" class="tab-btn" data-color="red">레드</button>
+          <button type="button" class="tab-btn" data-color="white">화이트</button>
+        </div>
+        <label>검색
+          <input type="search" id="grapes-search" placeholder="품종명(한글/영문)">
+        </label>
+      </div>
+
+      <div id="grapes-detail"></div>
+      <div class="card-grid" id="grapes-grid"></div>
+
+      <div style="margin-top:24px;" id="grapes-gap-note"></div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+
+<script>window.SITE_ROOT = "../";</script>
+<script src="../js/data.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/cellar.js"></script>
+<script src="../js/render.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    Render.initGrapes();
+  });
+</script>
+</body>
+</html>

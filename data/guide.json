@@ -1,0 +1,177 @@
+{
+  "tasting": {
+    "order": [
+      {
+        "step": "보기(Look)",
+        "description": "잔을 흰 배경 앞에서 기울여 색·투명도·점성을 본다. 레드는 숙성될수록 보라빛→벽돌색·갈색으로, 화이트는 옅은 색→황금색·호박색으로 짙어진다. 잔 벽에 흘러내리는 \"다리(legs/tears)\"가 느리고 진할수록 알코올·당도가 높은 편이다."
+      },
+      {
+        "step": "향 맡기(Smell)",
+        "description": "잔을 가볍게 흔들어(스월링) 향을 개방시킨 뒤 코를 가까이 대고 향을 맡는다. 1차 향(품종 유래: 과일·꽃·허브), 2차 향(발효 유래: 효모·버터), 3차 향/부케(숙성 유래: 오크·가죽·흙)로 나뉜다."
+      },
+      {
+        "step": "맛보기(Taste)",
+        "description": "소량을 입에 머금고 입안 전체로 굴려 산도·탄닌·바디·당도·풍미를 느낀 뒤 삼키거나 뱉고 여운을 확인한다."
+      },
+      {
+        "step": "균형감 평가",
+        "description": "색·향·맛 요소가 얼마나 조화롭게 어우러지는지 종합 평가한다."
+      }
+    ],
+    "axes": [
+      {
+        "name": "색(Color/Appearance)",
+        "meaning": "색의 농도와 톤으로 와인의 나이·품종·바디를 짐작할 수 있다. 레드는 숙성될수록 보라빛에서 벽돌색·갈색으로, 화이트는 반대로 옅은 색에서 황금색·호박색으로 짙어진다."
+      },
+      {
+        "name": "향(Aroma/Nose)",
+        "meaning": "1차 향(품종: 과일·꽃·허브), 2차 향(발효: 효모·버터), 3차 향/부케(숙성: 오크·가죽·흙)로 구분된다."
+      },
+      {
+        "name": "산도(Acidity)",
+        "meaning": "레몬을 입에 문 듯한 상쾌하고 침이 고이는 감각. 낮음-중간(-)-중간-중간(+)-높음의 5단계(WSET 체계)로 평가하며, 서늘한 기후 포도일수록 산도가 높은 경향이 있다."
+      },
+      {
+        "name": "탄닌(Tannin)",
+        "meaning": "입안을 마르게 하는 떫은 감각. 포도 껍질·씨·줄기 또는 오크에서 우러나며, 주로 레드 와인에서 뚜렷하다. 기름진 음식(단백질·지방)과 만나면 부드럽게 느껴진다."
+      },
+      {
+        "name": "바디(Body)",
+        "meaning": "입안에서 느껴지는 무게감·질감. 알코올 도수가 가장 큰 영향을 주며, 대체로 12%대 초반은 가볍게, 13% 후반 이상은 묵직하게 느껴진다(임계값은 출처별로 다소 상이, 참고용)."
+      },
+      {
+        "name": "당도(Sweetness)",
+        "meaning": "잔당(residual sugar) 정도에 따른 단맛. 드라이-오프드라이-미디엄드라이-미디엄스위트-스위트-매우 스위트의 스펙트럼으로 평가한다."
+      },
+      {
+        "name": "여운(Finish)",
+        "meaning": "삼킨 뒤에도 입과 목에 남는 맛·향의 지속 시간. 일반적으로 품질이 높은 와인일수록 여운이 길다고 평가된다."
+      }
+    ],
+    "source": "Michelin Guide Korea, 와인의 맛을 표현하는 테이스팅 용어 101; 위키백과, 포도주 시음; WSET Level 3 Wines(한국어); Wine Folly, What Is Wine Body — _workspace/01_knowledge_tasting.md",
+    "refs": [
+      {
+        "label": "Michelin Guide Korea, 와인의 맛을 표현하는 테이스팅 용어 101",
+        "url": "https://guide.michelin.com/kr/ko/article/features/와인의-맛을-표현하는-테이스팅-용어-101"
+      },
+      {
+        "label": "WSET Level 3 Wines(한국어)",
+        "url": "https://www.wsetglobal.com/media/3125/wset_l3_wines_sat_kr_jun-2016.pdf"
+      },
+      {
+        "label": "Wine Folly, What Is Wine Body",
+        "url": "https://winefolly.com/tips/what-is-wine-body-and-how-to-taste-it/"
+      }
+    ]
+  },
+  "pairing": {
+    "principles": [
+      {
+        "name": "무게감(바디) 매칭",
+        "description": "음식과 와인의 무게감을 비슷하게 맞춘다. 묵직한 요리(스튜, 스테이크)에는 풀바디 와인을, 가벼운 요리(샐러드, 흰살 생선)에는 라이트바디 와인을 맞춘다."
+      },
+      {
+        "name": "산도 매칭(대비 전략)",
+        "description": "산도 높은 와인은 기름지고 크리미한 음식을 상쾌하게 \"잘라내는(cut through)\" 역할을 한다. 다만 산도 높은 음식에 산도 높은 와인을 맞추면 신맛끼리 부딪힐 수 있다."
+      },
+      {
+        "name": "탄닌과 지방(공명 전략)",
+        "description": "지방이 혀를 코팅해 탄닌의 떫은 느낌(수렴성)을 부드럽게 중화시킨다. 탄닌 강한 레드가 기름진 붉은 육류와 오랫동안 짝을 이뤄온 이유다."
+      },
+      {
+        "name": "단맛 매칭",
+        "description": "\"와인은 항상 음식보다 달거나 최소한 같아야 한다.\" 음식의 단맛은 와인의 쓴맛·산미·알코올감을 도드라지게 하므로, 디저트에는 디저트보다 단 와인을 맞춰야 균형이 맞는다."
+      }
+    ],
+    "principlesSource": "WineWiki, Food and Wine Pairing Principles; Enobytes, The Science of Wine Pairing — _workspace/01_knowledge_pairing.md",
+    "examples": [
+      {
+        "food": "스테이크(붉은 육류)",
+        "wine": "카베르네 소비뇽",
+        "why": "지방이 강한 탄닌을 코팅·중화시켜 부드럽게 느껴지게 하고, 와인의 산도는 고기의 기름진 맛을 개운하게 정리해준다.",
+        "source": "마시자 매거진, 스테이크와 어울리는 최고의 와인",
+        "sourceUrl": "https://mashija.com/스테이크와-어울리는-최고의-와인-무엇을-고를-것인가/"
+      },
+      {
+        "food": "생굴",
+        "wine": "샤블리 / 샴페인",
+        "why": "굴 특유의 짠맛·바다향에 샤블리(비오크 샤르도네)나 샴페인의 높은 산도·미네랄리티가 맞물려 신선함을 극대화한다.",
+        "source": "와인21닷컴, 음식과 와인 페어링 기초",
+        "sourceUrl": "https://www.wine21.com/11_news/news_view.html?Idx=17341"
+      },
+      {
+        "food": "매운 태국·아시아 음식",
+        "wine": "오프-드라이 리슬링",
+        "why": "와인의 단맛이 캡사이신 자극을 완화시키고, 리슬링의 높은 산도가 향신료의 풍미를 산뜻하게 받쳐준다.",
+        "source": "와인21닷컴, 음식과 와인 페어링 기초",
+        "sourceUrl": "https://www.wine21.com/11_news/news_view.html?Idx=17341"
+      },
+      {
+        "food": "크림 파스타·리소토",
+        "wine": "소비뇽 블랑",
+        "why": "상쾌한 산도가 크림 소스의 무거움을 씻어내며 입안을 리프레시해준다.",
+        "source": "Enobytes, The Science of Wine Pairing",
+        "sourceUrl": "https://www.enobytes.com/2026/01/11/the-science-of-wine-pairing-why-salt-fat-acid-and-sweet-matter/"
+      },
+      {
+        "food": "토마토 소스 파스타·피자",
+        "wine": "산지오베제(키안티)",
+        "why": "토마토의 산미와 산지오베제의 높은 산도가 조화를 이루며, 세이보리한 흙·허브 풍미가 소스와 공명하는 \"지역 궁합(what grows together, goes together)\".",
+        "source": "Hospitality.Institute, Old World Wines",
+        "sourceUrl": "https://hospitality.institute/bha203/old-world-wines-europe-journey/"
+      },
+      {
+        "food": "연어(구운/훈제)",
+        "wine": "피노 누아",
+        "why": "연어의 기름진 질감이 피노 누아의 부드러운 탄닌·붉은 과일 풍미와 무게감이 맞아떨어지는 예외적 조합.",
+        "source": "와인 노트(conginfo.com)",
+        "sourceUrl": "https://conginfo.com/entry/레드-와인-포도-품종-느낌으로-쉽게-알아보기"
+      },
+      {
+        "food": "염소치즈",
+        "wine": "소비뇽 블랑",
+        "why": "염소치즈의 시큼하고 크리미한 풍미가 소비뇽 블랑의 높은 산도·허브 향과 균형을 이루는 프랑스 루아르 전통 궁합.",
+        "source": "와인21닷컴, 음식과 와인 페어링 기초",
+        "sourceUrl": "https://www.wine21.com/11_news/news_view.html?Idx=17341"
+      },
+      {
+        "food": "블루치즈",
+        "wine": "포트(주정강화 와인)",
+        "why": "짭짤한 치즈에 달콤한 와인을 매칭하면 단맛이 짠맛을 부드럽게 감싸는 클래식 디저트 궁합.",
+        "source": "와인21닷컴, 음식과 와인 페어링 기초",
+        "sourceUrl": "https://www.wine21.com/11_news/news_view.html?Idx=17341"
+      },
+      {
+        "food": "초콜릿 디저트",
+        "wine": "늦수확/주정강화 스위트 와인",
+        "why": "\"와인은 음식보다 달아야 한다\" 원칙의 대표 사례. 드라이한 와인을 맞추면 밍밍하고 시게 느껴진다.",
+        "source": "Enobytes, The Science of Wine Pairing",
+        "sourceUrl": "https://www.enobytes.com/2026/01/11/the-science-of-wine-pairing-why-salt-fat-acid-and-sweet-matter/"
+      },
+      {
+        "food": "양갈비·바비큐(스파이시한 육류)",
+        "wine": "시라/쉬라즈",
+        "why": "쉬라즈의 후추·스파이스 풍미가 양념된 육류의 향신료와 공명하며, 강한 탄닌이 고기의 지방과 어우러져 부드러워진다.",
+        "source": "WineWiki, Food and Wine Pairing Principles",
+        "sourceUrl": "https://www.winewithseth.com/winewiki/food-and-wine-pairing-principles/"
+      },
+      {
+        "food": "삼겹살·기름진 돼지고기 요리",
+        "wine": "말벡",
+        "why": "탄닌이 강하면서도 실키한 질감의 말벡이 삼겹살의 기름기를 잡아주면서도 거부감이 적다.",
+        "source": "와인21닷컴, 음식과 와인 페어링 기초",
+        "sourceUrl": "https://www.wine21.com/11_news/news_view.html?Idx=17341"
+      }
+    ],
+    "principlesRefs": [
+      {
+        "label": "WineWiki, Food and Wine Pairing Principles",
+        "url": "https://www.winewithseth.com/winewiki/food-and-wine-pairing-principles/"
+      },
+      {
+        "label": "Enobytes, The Science of Wine Pairing",
+        "url": "https://www.enobytes.com/2026/01/11/the-science-of-wine-pairing-why-salt-fat-acid-and-sweet-matter/"
+      }
+    ]
+  }
+}

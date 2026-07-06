@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>와인 포털 — 알고 마시면 더 맛있는 와인</title>
+<meta name="description" content="품종부터 산지, 시장 트렌드, 테이스팅·페어링, 리뷰·평점, 내 셀러까지. 초심자를 위한 와인 포털.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="site-header"></div>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <h1>와인, 알고 마시면 더 맛있다</h1>
+      <p>품종부터 시장 트렌드까지, 초심자를 위한 와인 포털</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">오늘의 와인</h2>
+      <p class="section-intro">매일 다른 대표 와인 스타일을 소개합니다.</p>
+      <div id="today-wine"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">둘러보기</h2>
+      <div class="card-grid">
+        <a class="entry-card" href="pages/grapes.html">
+          <div class="entry-icon">🍇</div>
+          <h3>품종</h3>
+          <p>레드 8종, 화이트 6종 — 향미·바디·대표 산지를 한눈에</p>
+        </a>
+        <a class="entry-card" href="pages/regions.html">
+          <div class="entry-icon">🗺️</div>
+          <h3>산지</h3>
+          <p>구세계 6곳 신세계 5곳 — 같은 품종도 산지에 따라 왜 다른 맛이 나는지</p>
+        </a>
+        <a class="entry-card" href="pages/market.html">
+          <div class="entry-icon">📈</div>
+          <h3>시장·트렌드</h3>
+          <p>2024~2026년 글로벌·한국 와인 시장은 지금 어디로 가고 있나</p>
+        </a>
+        <a class="entry-card" href="pages/guide.html">
+          <div class="entry-icon">🍽️</div>
+          <h3>테이스팅·페어링</h3>
+          <p>소믈리에처럼 맛보는 법, 그리고 무엇과 곁들일지</p>
+        </a>
+        <a class="entry-card" href="pages/reviews.html">
+          <div class="entry-icon">⭐</div>
+          <h3>리뷰·평점</h3>
+          <p>대표 스타일 카드를 둘러보고 내 평점을 매겨보세요</p>
+        </a>
+        <a class="entry-card" href="pages/cellar.html">
+          <div class="entry-icon">🍷</div>
+          <h3>내 셀러</h3>
+          <p>내가 마신 와인, 갖고 있는 와인을 기록하고 관리하세요</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="banner">
+        <div>
+          <h3 style="color:#fff;margin-bottom:4px;">와인이 처음이라면?</h3>
+          <p style="margin:0;color:rgba(255,255,255,0.9);">테이스팅 4단계와 페어링 원칙부터 차근차근 알아보세요.</p>
+        </div>
+        <a class="btn btn-outline" href="pages/guide.html">테이스팅·페어링 가이드 보기 →</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+
+<script>window.SITE_ROOT = "";</script>
+<script src="js/data.js"></script>
+<script src="js/common.js"></script>
+<script src="js/cellar.js"></script>
+<script src="js/render.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    Render.initHome();
+  });
+</script>
+</body>
+</html>

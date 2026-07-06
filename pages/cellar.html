@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>내 셀러 — 와인 포털</title>
+<meta name="description" content="보유 와인과 시음 기록을 직접 등록·관리하는 개인화 페이지. 브라우저(이 기기)에만 저장됩니다.">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div id="site-header"></div>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <h1 class="section-title">내 셀러</h1>
+      <p class="section-intro">내가 마신 와인, 갖고 있는 와인을 기록하고 관리하세요.</p>
+      <div class="notice-box">이 기록은 브라우저(이 기기)에만 저장됩니다. 다른 기기에서는 보이지 않으며, 브라우저 데이터를 지우면 함께 삭제됩니다.</div>
+
+      <h2>보유 와인</h2>
+      <form class="form-card" id="cellar-form">
+        <div class="form-row">
+          <div class="field">
+            <label for="cellar-wineName">와인명 *</label>
+            <input type="text" id="cellar-wineName" name="wineName" required>
+          </div>
+          <div class="field">
+            <label for="cellar-type">타입</label>
+            <select id="cellar-type" name="type">
+              <option value="red">레드</option>
+              <option value="white">화이트</option>
+              <option value="other">기타</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="cellar-vintage">빈티지</label>
+            <input type="text" id="cellar-vintage" name="vintage" placeholder="예: 2020">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field" style="flex-basis:100%;">
+            <label for="cellar-note">메모</label>
+            <textarea id="cellar-note" name="note" placeholder="구매처, 보관 위치 등"></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn">셀러에 등록</button>
+      </form>
+      <div id="cellar-list" class="card-grid"></div>
+
+      <h2 style="margin-top:40px;">시음 기록</h2>
+      <form class="form-card" id="tasting-form">
+        <input type="hidden" name="rating" value="0">
+        <div class="form-row">
+          <div class="field">
+            <label for="tasting-wineName">와인명 *</label>
+            <input type="text" id="tasting-wineName" name="wineName" required>
+          </div>
+          <div class="field">
+            <label for="tasting-date">시음일</label>
+            <input type="date" id="tasting-date" name="tastedAt">
+          </div>
+          <div class="field">
+            <label>별점</label>
+            <div id="tasting-form-rating" class="stars-input"></div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field" style="flex-basis:100%;">
+            <label for="tasting-note">메모</label>
+            <textarea id="tasting-note" name="note" placeholder="어떤 맛이었는지, 누구와 마셨는지 등"></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn">시음 기록 등록</button>
+      </form>
+      <div id="tasting-list"></div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+
+<script>window.SITE_ROOT = "../";</script>
+<script src="../js/data.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/cellar.js"></script>
+<script src="../js/render.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    Render.initCellar();
+  });
+</script>
+</body>
+</html>

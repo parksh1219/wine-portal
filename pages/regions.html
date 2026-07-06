@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>산지 — 와인 포털</title>
+<meta name="description" content="구세계 6곳, 신세계 5곳 와인 산지의 기후·테루아·대표 스타일을 살펴봅니다.">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div id="site-header"></div>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <h1 class="section-title">산지</h1>
+      <p class="section-intro">"구세계"는 프랑스·이탈리아·스페인·독일처럼 오랜 와인 전통과 테루아(토양·기후 등 자연조건)·원산지 명칭 체계를 가진 지역을, "신세계"는 미국·칠레·호주·뉴질랜드·아르헨티나처럼 비교적 온난한 기후에서 직관적인 과실미를 강조하는 지역을 가리킨다.</p>
+
+      <div class="filter-bar">
+        <div class="tab-group" id="regions-world-tabs">
+          <button type="button" class="tab-btn active" data-world="all">전체</button>
+          <button type="button" class="tab-btn" data-world="old">구세계</button>
+          <button type="button" class="tab-btn" data-world="new">신세계</button>
+        </div>
+      </div>
+
+      <div id="regions-detail"></div>
+      <div class="card-grid" id="regions-grid"></div>
+
+      <div style="margin-top:24px;" id="regions-gap-note"></div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+
+<script>window.SITE_ROOT = "../";</script>
+<script src="../js/data.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/cellar.js"></script>
+<script src="../js/render.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    Render.initRegions();
+  });
+</script>
+</body>
+</html>

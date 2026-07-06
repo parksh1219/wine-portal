@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>테이스팅·페어링 — 와인 포털</title>
+<meta name="description" content="와인을 체계적으로 시음하는 법과 음식 페어링 원리·예시를 알려주는 실용 가이드.">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div id="site-header"></div>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <h1 class="section-title">테이스팅·페어링</h1>
+      <p class="section-intro">소믈리에처럼 맛보는 법, 그리고 무엇과 곁들일지 알아본다.</p>
+
+      <div id="guide-root"></div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+
+<script>window.SITE_ROOT = "../";</script>
+<script src="../js/data.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/cellar.js"></script>
+<script src="../js/render.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    Render.initGuide();
+  });
+</script>
+</body>
+</html>

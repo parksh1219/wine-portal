@@ -1,0 +1,395 @@
+{
+  "marketSize": {
+    "year": 2025,
+    "global": {
+      "note": "조사기관별 산정 방식(소매가 vs 생산자 출하가, 주류 전체 포함 여부 등)이 달라 추정치 편차가 크다(2025년 기준 약 3,577억~5,664억 달러). 절대값보다 \"성장/축소 방향성\"과 \"성장 동력(프리미엄화)\"에 주목할 것.",
+      "estimates": [
+        {
+          "source": "Grand View Research",
+          "value2025": "약 5,496억 달러",
+          "forecast": "2033년 1조 820억 달러(CAGR 9.1%)",
+          "url": "https://www.grandviewresearch.com/industry-analysis/wine-market"
+        },
+        {
+          "source": "Fortune Business Insights",
+          "value2025": "약 5,664억 달러",
+          "forecast": "2034년 1조 3,313억 달러(CAGR 9.96%)",
+          "url": "https://www.fortunebusinessinsights.com/wine-market-102836"
+        },
+        {
+          "source": "IMARC Group",
+          "value2025": "약 5,327억 달러",
+          "forecast": "2034년 8,110억 달러(CAGR 4.64%)",
+          "url": "https://www.imarcgroup.com/wine-market"
+        },
+        {
+          "source": "Market Data Forecast",
+          "value2025": "약 3,577억 달러",
+          "forecast": null,
+          "url": "https://www.marketdataforecast.com/market-reports/wine-market"
+        }
+      ]
+    },
+    "productionConsumption2024": {
+      "productionMhl": 225.8,
+      "productionChangeYoY": "-4.8%",
+      "productionNote": "60여 년 만의 최저치",
+      "consumptionMhl": 214,
+      "consumptionChangeYoY": "-3.3%",
+      "consumptionNote": "1961년 이후 최저 수준",
+      "vineyardAreaHa": 7100000,
+      "vineyardAreaChangeYoY": "-0.6%",
+      "vineyardAreaNote": "4년 연속 감소",
+      "exportVolumeMhl": 99.8,
+      "causes": [
+        "기후변화로 인한 이상기후",
+        "인플레이션",
+        "지정학적 불안정",
+        "소비 습관 변화"
+      ],
+      "source": "OIV(국제와인기구), \"State of the World Vine and Wine Sector in 2024\"(2025년 4월 발표) — https://www.oiv.int/press/state-world-vine-and-wine-sector-2024-adaptation-cooperation",
+      "sourceUrl": "https://www.oiv.int/press/state-world-vine-and-wine-sector-2024-adaptation-cooperation"
+    },
+    "usMarket": {
+      "note": "세계 최대 단일 시장 중 하나. 참고용.",
+      "year": "2025~2026",
+      "volumeChangeYoY": "-5%(2025년, 20년 만에 최저, 사상 처음 3억 케이스 이하로 하락)",
+      "valueForecast2026": "+2~4%(프리미엄화·가격 인상에 의한 성장, 소비량 증가 아님)",
+      "marketValueUSD": "약 1,150억 달러",
+      "source": "Forbes, \"$115 Billion U.S. Wine Market Enters 'Reset'\"(2026.05); SVB, \"State of the US Wine Industry Report 2026\"",
+      "refs": [
+        {
+          "label": "Forbes, \"$115 Billion U.S. Wine Market Enters 'Reset'\"",
+          "url": "https://www.forbes.com/sites/lizthach/2026/05/12/115-billion-us-wine-market-enters-reset-amid-shifting-consumer-trends/"
+        },
+        {
+          "label": "SVB, \"State of the US Wine Industry Report 2026\"",
+          "url": "https://www.svb.com/trends-insights/reports/wine-report/"
+        }
+      ]
+    }
+  },
+  "trends": [
+    {
+      "id": "premiumization",
+      "name": "프리미엄화(Premiumization) — \"적게, 더 좋게\"",
+      "description": "소비자가 마시는 절대량은 줄이되 병당 지출 단가를 높이는 경향. 특히 15~49.99달러 구간(\"masstige\" 프리미엄 세그먼트)이 가장 견조하게 성장한다. 15달러 이상 병은 판매 감소가 완만한 반면 저가 브랜드는 더 가파르게 감소한다.",
+      "year": "2025년 실적 기준, 2026년에도 지속 전망",
+      "source": "SevenFifty Daily, \"5 Wine Industry Trends to Watch in 2026\"; The Wine Concierge",
+      "refs": [
+        {
+          "label": "SevenFifty Daily, \"5 Wine Industry Trends to Watch in 2026\"",
+          "url": "https://daily.sevenfifty.com/5-wine-industry-trends-to-watch-in-2026/"
+        },
+        {
+          "label": "The Wine Concierge",
+          "url": "https://thewineconcierge.co/blogs/news/wine-trends-2026-premiumization-wellness-whats-next"
+        }
+      ]
+    },
+    {
+      "id": "low-no-alcohol",
+      "name": "저알코올·논알콜(Low & No-Alcohol) 와인 확대",
+      "description": "건강을 중시하는 밀레니얼·Z세대를 중심으로 저알코올·논알콜 와인 수요가 늘고 있으며, 2026년에는 \"특이 상품\"에서 \"프리미엄 카테고리\"로 지위가 격상될 전망이다.",
+      "year": "2025~2026년",
+      "source": "SevenFifty Daily; Dimins, \"2026 Wine & Spirits Industry Trends\"",
+      "refs": [
+        {
+          "label": "SevenFifty Daily",
+          "url": "https://daily.sevenfifty.com/5-wine-industry-trends-to-watch-in-2026/"
+        },
+        {
+          "label": "Dimins, \"2026 Wine & Spirits Industry Trends\"",
+          "url": "https://www.dimins.com/blog/2026/01/13/2026-wine-spirits-industry-trends/"
+        }
+      ]
+    },
+    {
+      "id": "organic-natural",
+      "name": "내추럴·유기농·바이오다이나믹 와인 성장",
+      "description": "최소 개입 양조(minimal-intervention winemaking), 유기농·바이오다이나믹 인증 와인에 대한 관심이 건강 지향 소비층을 중심으로 확대되고 있다.",
+      "year": "2025~2026년",
+      "source": "Tastewise, \"Organic Wine Trends: Sales And Data In 2026\"",
+      "refs": [
+        {
+          "label": "Tastewise, \"Organic Wine Trends: Sales And Data In 2026\"",
+          "url": "https://tastewise.io/blog/organic-wine-trends"
+        }
+      ]
+    },
+    {
+      "id": "online-dtc",
+      "name": "온라인·DTC(Direct-to-Consumer) 판매 확대",
+      "description": "미국에서는 주(州) 간 와인 배송을 허용하는 지역이 2015년 32개 주에서 현재 47개 주로 늘며 온라인·직배송 채널이 성장 동력으로 부상했다.",
+      "year": "2026년",
+      "source": "Dimins, \"2026 Wine & Spirits Industry Trends\"",
+      "refs": [
+        {
+          "label": "Dimins, \"2026 Wine & Spirits Industry Trends\"",
+          "url": "https://www.dimins.com/blog/2026/01/13/2026-wine-spirits-industry-trends/"
+        }
+      ]
+    },
+    {
+      "id": "wine-rtd",
+      "name": "와인 기반 RTD(Ready-to-Drink) 성장",
+      "description": "캔 와인, 와인 스프리처 등 와인 기반 RTD 제품이 빠르게 성장하며 캐주얼·경험 중심 소비를 흡수하고 있다. 2025년 약 14% 성장.",
+      "year": "2025년",
+      "source": "SevenFifty Daily",
+      "refs": [
+        {
+          "label": "SevenFifty Daily",
+          "url": "https://daily.sevenfifty.com/5-wine-industry-trends-to-watch-in-2026/"
+        }
+      ]
+    },
+    {
+      "id": "selective-drinking",
+      "name": "전반적 소비량 감소 속 \"선택적 음용(selective drinking)\"",
+      "description": "세계적으로 와인 소비량 자체는 줄고 있지만(1961년 이후 최저), 소비자는 마시는 횟수를 줄이는 대신 상황에 맞는 프리미엄 와인을 선택하는 방향으로 이동하고 있다.",
+      "year": "2024~2026년",
+      "source": "Vinetur, \"Global Wine Consumption in 2026 Continues to Decline as Consumers Shift Toward Premium and Selective Drinking\"; OIV",
+      "refs": [
+        {
+          "label": "Vinetur, \"Global Wine Consumption in 2026 Continues to Decline\"",
+          "url": "https://www.vinetur.com/en/global-wine-consumption-in-2026-continues-to-decline-as-consumers-shift-toward-premium-and-selective-drinking.html"
+        },
+        {
+          "label": "OIV",
+          "url": "https://www.oiv.int/press/state-world-vine-and-wine-sector-2024-adaptation-cooperation"
+        }
+      ]
+    }
+  ],
+  "priceRanges": [
+    {
+      "tier": "daily",
+      "tierLabel": "데일리(일상용)",
+      "usdRange": "4~15달러",
+      "krwRangeKorea": "1만~3만원",
+      "channelsKorea": [
+        "편의점(스마트오더)",
+        "마트 매대"
+      ],
+      "note": "접근성·가성비 중심. 대량 생산 브랜드 와인, 편의점 단독 PB 와인(예: 이마트24 \"더 롱독\" 9,900원). 편의점에서는 3만원 이하 구간이 가격 경쟁력이 가장 높다.",
+      "source": "Gus Clemens on Wine, \"Wine price segments\"; 다사자, 편의점·마트 주류 가격 비교(2026.04 갱신) — _workspace/01_market_price.md",
+      "refs": [
+        {
+          "label": "Gus Clemens on Wine, \"Wine price segments\"",
+          "url": "https://www.gusclemensonwine.com/wine-price-segments/"
+        },
+        {
+          "label": "다사자, 편의점·마트 주류 가격 비교(2026.04 갱신)",
+          "url": "https://dasaja.co.kr/saja_guide/107"
+        }
+      ]
+    },
+    {
+      "tier": "mid",
+      "tierLabel": "미들(선물·특별한 날)",
+      "usdRange": "15~30달러",
+      "krwRangeKorea": "3만~7만원",
+      "channelsKorea": [
+        "대형마트(이마트·롯데마트·홈플러스)",
+        "창고형 매장(코스트코 등)"
+      ],
+      "note": "테루아·품종 개성이 본격적으로 드러나는 구간. 최근 미국 시장에서도 가장 견조하게 성장하는 프리미엄화 핵심 구간과 맞물린다. 대표 유형: 프랑스 AOC급, 이탈리아 DOC/DOCG급, 나파밸리 중급 라인, 뉴질랜드 소비뇽 블랑.",
+      "source": "Gus Clemens on Wine; 노써치, 와인 구매 장소 가이드(2025~2026) — _workspace/01_market_price.md",
+      "refs": [
+        {
+          "label": "Gus Clemens on Wine",
+          "url": "https://www.gusclemensonwine.com/wine-price-segments/"
+        },
+        {
+          "label": "노써치, 와인 구매 장소 가이드(2025~2026)",
+          "url": "https://v.daum.net/v/94r91RaV7f"
+        }
+      ]
+    },
+    {
+      "tier": "premium",
+      "tierLabel": "프리미엄/럭셔리",
+      "usdRange": "30달러 이상(상한 없음)",
+      "krwRangeKorea": "7만원 이상(마트 상시가 기준), 10만원 이상은 장터·전문점·온라인 중심",
+      "channelsKorea": [
+        "와인전문점",
+        "온라인·수입사 직판",
+        "마트 특별 장터"
+      ],
+      "note": "소장 가치·숙성 잠재력을 갖춘 구간. 대형마트 상시가가 7만원을 넘으면 로컬 와인샵·온라인 대비 가격 메리트가 낮아지는 경향. 대표 유형: 보르도 그랑크뤼, 부르고뉴 프리미에/그랑크뤼, 나파밸리 컬트 와인, 빈티지 샴페인.",
+      "source": "Gus Clemens on Wine; 지극히 개인적인 와인노트 — _workspace/01_market_price.md",
+      "refs": [
+        {
+          "label": "Gus Clemens on Wine",
+          "url": "https://www.gusclemensonwine.com/wine-price-segments/"
+        },
+        {
+          "label": "지극히 개인적인 와인노트",
+          "url": "https://mypersonalwinenote.com/%EC%99%80%EC%9D%B8-%EA%B5%AC%EB%A7%A4-%EC%9E%A5%EC%86%8C/"
+        }
+      ]
+    }
+  ],
+  "priceRangesCaveat": "한국 가격 구간 수치는 업계 표준 통계가 아닌 유통업체 사례·개인 리뷰어(threads, 블로그) 기반으로, 공신력 있는 1차 출처(국세청·주류업계 협회 공식 통계)는 확인하지 못했다. 참고용으로만 사용 권장.",
+  "korea": {
+    "year": 2025,
+    "importVolumeHl2025": 487558,
+    "importVolumeChangeYoY2025": "+5.27%",
+    "importValueUSD2025": "약 4억 900만 달러",
+    "importValueChangeYoY2025": "-7.48%",
+    "importFiguresNote": "2024년 수입량이 출처별로 453,482hl(Wine Review) / 463,152hl(와인21닷컴) / 453,151hl(동일 통계 세부 재인용)로 소폭 엇갈린다. 2021~2025년 추세를 톤 단위로 제시한 자료(2021년 약 7.6만 톤→2025년 약 5.1만 톤, 30% 이상 감소)도 있으나 단위(톤/헥토리터)가 혼재돼 직접 비교에는 주의가 필요하다.",
+    "topCountries": {
+      "byVolume2025": [
+        {
+          "rank": 1,
+          "country": "칠레",
+          "share": "22.54%"
+        }
+      ],
+      "byValue2025": [
+        {
+          "rank": 1,
+          "country": "프랑스",
+          "share": "36.97%"
+        }
+      ],
+      "note": "물량 기준 1위는 칠레, 금액 기준 1위는 프랑스가 수년째 유지. 2024년 금액 기준 프랑스·미국·이탈리아 합산 점유율 69%, 2025년 금액 기준 프랑스·이탈리아·미국 합산 65.12%. 2025년 미국 물량 점유율은 9.95%(2024)→7.91%로 하락.",
+      "source": "Wine Review(2025.01); 와인21닷컴(2026.01.27) — 관세청 무역통계 재인용",
+      "refs": [
+        {
+          "label": "Wine Review(2025.01)",
+          "url": "https://winereview.co.kr/%ED%95%9C%EA%B5%AD-%EC%88%98%EC%9E%85%EC%99%80%EC%9D%B8%EC%8B%9C%EC%9E%A5-2024%EB%85%84-%EC%8B%9C%EC%9E%A5-%EA%B2%B0%EC%82%B0%EA%B3%BC-2025%EB%85%84-%EC%A0%84%EB%A7%9D/"
+        },
+        {
+          "label": "와인21닷컴(2026.01.27)",
+          "url": "https://www.wine21.com/11_news/news_view.html?Idx=20943"
+        }
+      ]
+    },
+    "typeShare": {
+      "2024": {
+        "red": "57.03%",
+        "white": "28.59%",
+        "sparkling": "13.09%"
+      },
+      "2025": {
+        "red": "50.87%",
+        "white": "26.82%",
+        "sparkling": "20.46%"
+      },
+      "note": "금액 기준. 레드 비중이 처음으로 60% 아래로 내려간 뒤 계속 하락, 스파클링 비중이 크게 증가. 화이트 부문에서는 뉴질랜드산이 32,396hl로 1위이며 코로나 이후 유일하게 지속 성장하는 카테고리로 언급된다. 2026년에도 레드 감소·화이트/스파클링 증가 흐름 전망.",
+      "source": "Wine Review(2025.01); 와인21닷컴(2026.01.27)",
+      "refs": [
+        {
+          "label": "Wine Review(2025.01)",
+          "url": "https://winereview.co.kr/%ED%95%9C%EA%B5%AD-%EC%88%98%EC%9E%85%EC%99%80%EC%9D%B8%EC%8B%9C%EC%9E%A5-2024%EB%85%84-%EC%8B%9C%EC%9E%A5-%EA%B2%B0%EC%82%B0%EA%B3%BC-2025%EB%85%84-%EC%A0%84%EB%A7%9D/"
+        },
+        {
+          "label": "와인21닷컴(2026.01.27)",
+          "url": "https://www.wine21.com/11_news/news_view.html?Idx=20943"
+        }
+      ]
+    },
+    "channels": [
+      {
+        "name": "대형마트(이마트·롯데마트·홈플러스)/창고형(코스트코 등)",
+        "note": "여전히 가장 대중적인 구매 장소"
+      },
+      {
+        "name": "편의점 스마트오더(예: GS25 \"와인25플러스\")",
+        "note": "주문 건수 전년 대비 성장률 2021년 +1300%, 2022년 +148%, 2023년 +174%, 2024년 +193.1%, 2025년에도 두 자릿수 이상 성장. 상시 진열은 약 40종이나 스마트오더로는 약 2,000종 주문 가능, 이용 가능 매장 비율 약 95%."
+      },
+      {
+        "name": "와인전문점 / 온라인(오픈마켓 등 제한적 채널) / 백화점",
+        "note": "프리미엄 구간 소비자가 주로 이용"
+      }
+    ],
+    "channelsSource": "와인인, \"2025 국내 와인시장 리뷰 & 2026 프리뷰\"; 소믈리에타임즈, \"주류 스마트오더 허용 이후, 와인 업계 '바쁘다 바빠'\"",
+    "regulationNote": "한국은 전통주를 제외한 일반 주류(와인 포함)의 온라인 직접 판매(택배 배송)를 원칙적으로 금지한다. 2020년 4월 국세청 고시 개정으로 \"스마트오더\"(온라인 주문·결제 + 오프라인 매장 본인 픽업, 신분증 지참)만 예외적으로 허용됐다. 전통주는 2017년 7월부터 산업 육성 목적으로 완전한 온라인 판매(택배)가 허용된 것과 대조적이다. 업계에서는 스마트오더보다 폭넓은 온라인 판매 허용을 요구하는 목소리가 계속 나온다.",
+    "regulationSource": "소믈리에타임즈; 와인21닷컴, \"스마트 오더보다 더 스마트한, '와인 온라인 판매'를 허용할 때\"; 법제처, \"주류의 통신판매에 관한 명령위임 고시\"",
+    "recentTrends": [
+      {
+        "period": "2020~2021년",
+        "description": "코로나19 \"홈술\" 붐으로 전년 대비 20~30% 성장, 국민 술 시장에 도전하는 수준까지 성장",
+        "source": "식품음료신문",
+        "refs": [
+          {
+            "label": "식품음료신문",
+            "url": "https://www.thinkfood.co.kr/news/articleView.html?idxno=89632"
+          }
+        ]
+      },
+      {
+        "period": "2022~2024년",
+        "description": "사회적 거리두기 해제 이후 수입액·수입량 연속 감소(조정기)",
+        "source": "Wine Review; 와인21닷컴",
+        "refs": [
+          {
+            "label": "Wine Review",
+            "url": "https://winereview.co.kr/%ED%95%9C%EA%B5%AD-%EC%88%98%EC%9E%85%EC%99%80%EC%9D%B8%EC%8B%9C%EC%9E%A5-2024%EB%85%84-%EC%8B%9C%EC%9E%A5-%EA%B2%B0%EC%82%B0%EA%B3%BC-2025%EB%85%84-%EC%A0%84%EB%A7%9D/"
+          },
+          {
+            "label": "와인21닷컴",
+            "url": "https://www.wine21.com/11_news/news_view.html?Idx=20943"
+          }
+        ]
+      },
+      {
+        "period": "2025년",
+        "description": "물량 반등(+5.27%)했으나 금액은 계속 감소(-7.48%)하는 디커플링. GS25·카카오 협업 \"Gift X\" 와인 페어링 다이닝, 마스터클래스 등 경험형 소비가 최대 2배 이상 신장률",
+        "source": "와인인; 와인21닷컴",
+        "refs": [
+          {
+            "label": "와인인",
+            "url": "https://winein.co.kr/2025-%EA%B5%AD%EB%82%B4-%EC%99%80%EC%9D%B8%EC%8B%9C%EC%9E%A5-%EB%A6%AC%EB%B7%B0-2026-%ED%94%84%EB%A6%AC%EB%B7%B0/"
+          },
+          {
+            "label": "와인21닷컴",
+            "url": "https://www.wine21.com/11_news/news_view.html?Idx=20943"
+          }
+        ]
+      },
+      {
+        "period": "2026년 전망",
+        "description": "고환율로 고급 와인 시장이 위축되고 저가 와인 수요가 늘어나는 추세가 전망됨",
+        "source": "와인인, \"2025 국내 와인시장 리뷰 & 2026 프리뷰\"",
+        "refs": [
+          {
+            "label": "와인인, \"2025 국내 와인시장 리뷰 & 2026 프리뷰\"",
+            "url": "https://winein.co.kr/2025-%EA%B5%AD%EB%82%B4-%EC%99%80%EC%9D%B8%EC%8B%9C%EC%9E%A5-%EB%A6%AC%EB%B7%B0-2026-%ED%94%84%EB%A6%AC%EB%B7%B0/"
+          }
+        ]
+      }
+    ],
+    "channelsRefs": [
+      {
+        "label": "와인인, \"2025 국내 와인시장 리뷰 & 2026 프리뷰\"",
+        "url": "https://winein.co.kr/2025-%EA%B5%AD%EB%82%B4-%EC%99%80%EC%9D%B8%EC%8B%9C%EC%9E%A5-%EB%A6%AC%EB%B7%B0-2026-%ED%94%84%EB%A6%AC%EB%B7%B0/"
+      },
+      {
+        "label": "소믈리에타임즈, \"주류 스마트오더 허용 이후, 와인 업계 '바쁘다 바빠'\"",
+        "url": "https://www.sommeliertimes.com/news/articleView.html?idxno=17000"
+      }
+    ],
+    "regulationRefs": [
+      {
+        "label": "소믈리에타임즈",
+        "url": "https://www.sommeliertimes.com/news/articleView.html?idxno=17000"
+      },
+      {
+        "label": "와인21닷컴, \"스마트 오더보다 더 스마트한, '와인 온라인 판매'를 허용할 때\"",
+        "url": "https://www.wine21.com/11_news/news_view.html?Idx=18896"
+      },
+      {
+        "label": "법제처, \"주류의 통신판매에 관한 명령위임 고시\"",
+        "url": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%A3%BC%EB%A5%98%EC%9D%98%20%ED%86%B5%EC%8B%A0%ED%8C%90%EB%A7%A4%EC%97%90%20%EA%B4%80%ED%95%9C%20%EB%AA%85%EB%A0%B9%EC%9C%84%EC%9E%84%20%EA%B3%A0%EC%8B%9C"
+      }
+    ]
+  },
+  "researchGaps": [
+    "국가별(유럽/아시아/남미 등) 세부 글로벌 시장 규모는 조사하지 않음 — 글로벌 총계와 미국·한국만 확인.",
+    "글로벌 시장 규모(금액) 추정치 간 편차가 커서 단일 대표값 대신 기관별 추정치를 모두 병기함.",
+    "한국 가격 구간 수치는 공신력 있는 1차 통계(국세청·업계 협회) 기준이 아니므로 참고용.",
+    "관세청 원자료(K-stat, stat.kita.net)를 직접 조회하지 못해 2차 출처(업계 매체) 재인용 수치를 사용함."
+  ]
+}

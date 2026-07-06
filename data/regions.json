@@ -1,0 +1,234 @@
+[
+  {
+    "id": "bordeaux",
+    "name": "보르도",
+    "nameEn": "Bordeaux",
+    "country": "프랑스",
+    "world": "old",
+    "grapes": [
+      "카베르네 소비뇽",
+      "메를로",
+      "소비뇽 블랑(화이트)",
+      "세미용(화이트)"
+    ],
+    "climate": "대서양 해양성 기후, 지롱드강 기준 좌안 자갈질 / 우안 점토질 토양",
+    "styleNote": "카베르네 소비뇽·메를로 블렌딩의 본고장. 좌안(자갈질, 카베르네 소비뇽 중심)은 골격이 탄탄하고 블랙커런트 풍미, 우안(점토질, 메를로 중심)은 더 부드럽고 자두 풍미가 풍부하다. 대표 스타일: 메독(좌안 블렌드), 포므롤·생테밀리옹(우안 블렌드).",
+    "source": "Vinodivino, What Is An Old World Wine; oboe.com, Old World Wine Regions — _workspace/01_knowledge_regions.md",
+    "refs": [
+      {
+        "label": "Vinodivino, What Is An Old World Wine",
+        "url": "https://vinodivino.com/blogs/blog/what-is-an-old-world-wine"
+      },
+      {
+        "label": "oboe.com, Old World Wine Regions",
+        "url": "https://oboe.com/learn/mastering-wset-level-3-wine-knowledge-gzqzry/old-world-wine-regions-2"
+      }
+    ]
+  },
+  {
+    "id": "bourgogne",
+    "name": "부르고뉴",
+    "nameEn": "Bourgogne / Burgundy",
+    "country": "프랑스",
+    "world": "old",
+    "grapes": [
+      "피노 누아",
+      "샤르도네"
+    ],
+    "climate": "대륙성 기후(더운 여름·추운 겨울), 밭 단위(클리마)로 세분화된 석회질 토양",
+    "styleNote": "피노 누아와 샤르도네 단일 품종 와인의 정점. \"클리마(climat)\"라는 극세분화된 밭 단위로 테루아를 표현하며, 같은 마을 안에서도 밭 등급(그랑크뤼·프르미에크뤼·빌라주)에 따라 가격·품질이 크게 갈린다. 대표 스타일: 코트 도르 레드, 샤블리(화이트).",
+    "source": "Bernard Marr's Wine Guide; oboe.com, Old World Wine Regions — _workspace/01_knowledge_regions.md",
+    "refs": [
+      {
+        "label": "Bernard Marr's Wine Guide",
+        "url": "https://bmwineguide.co.uk/in-introduction-to-the-worlds-most-important-wine-regions/"
+      },
+      {
+        "label": "oboe.com, Old World Wine Regions",
+        "url": "https://oboe.com/learn/mastering-wset-level-3-wine-knowledge-gzqzry/old-world-wine-regions-2"
+      }
+    ]
+  },
+  {
+    "id": "tuscany",
+    "name": "토스카나",
+    "nameEn": "Tuscany",
+    "country": "이탈리아",
+    "world": "old",
+    "grapes": [
+      "산지오베제"
+    ],
+    "climate": "지중해성 기후(따뜻하고 일조량 풍부), 구릉지 점토·석회질 토양",
+    "styleNote": "산지오베제의 고향. 키안티·브루넬로 디 몬탈치노·수퍼투스칸의 산실로, 높은 산도와 단단한 탄닌, 체리·흙 풍미의 세이보리한 와인을 만든다.",
+    "source": "Hospitality.Institute, Old World Wines — _workspace/01_knowledge_regions.md",
+    "refs": [
+      {
+        "label": "Hospitality.Institute, Old World Wines",
+        "url": "https://hospitality.institute/bha203/old-world-wines-europe-journey/"
+      }
+    ]
+  },
+  {
+    "id": "piedmont",
+    "name": "피에몬테",
+    "nameEn": "Piedmont",
+    "country": "이탈리아",
+    "world": "old",
+    "grapes": [
+      "네비올로",
+      "바르베라",
+      "모스카토"
+    ],
+    "climate": "온화한 대륙성 기후, 점토·석회암 토양",
+    "styleNote": "네비올로로 만드는 \"와인의 왕\" 바롤로와 바르바레스코의 산지. 점토와 석회암이 섞인 토양과 온화한 기후가 강렬한 아로마, 단단한 탄닌, 뛰어난 숙성 잠재력을 부여한다. 모스카토 다스티도 이 지역 산물.",
+    "source": "Vinodivino, What Is An Old World Wine — _workspace/01_knowledge_regions.md",
+    "refs": [
+      {
+        "label": "Vinodivino, What Is An Old World Wine",
+        "url": "https://vinodivino.com/blogs/blog/what-is-an-old-world-wine"
+      }
+    ]
+  },
+  {
+    "id": "rioja",
+    "name": "리오하",
+    "nameEn": "Rioja",
+    "country": "스페인",
+    "world": "old",
+    "grapes": [
+      "템프라니요"
+    ],
+    "climate": "대륙성·대서양성 혼재, 석회암·점토질 토양",
+    "styleNote": "템프라니요 기반 레드 와인의 본산. 오크·병 숙성 등급 체계(크리안사·레세르바·그란 레세르바)가 특징적이며, 전통적으로 미국산 오크통 숙성으로 바닐라·코코넛 뉘앙스가 자주 나타난다.",
+    "source": "viavinumwinetours, Wine Region Maps — _workspace/01_knowledge_regions.md",
+    "refs": [
+      {
+        "label": "viavinumwinetours, Wine Region Maps",
+        "url": "https://viavinumwinetours.com/en/wine-region-maps/"
+      }
+    ]
+  },
+  {
+    "id": "mosel",
+    "name": "모젤",
+    "nameEn": "Mosel",
+    "country": "독일",
+    "world": "old",
+    "grapes": [
+      "리슬링"
+    ],
+    "climate": "서늘한 대륙성 기후, 슬레이트(점판암) 급경사지",
+    "styleNote": "세계 최고의 리슬링 산지 중 하나. 모젤강을 따라 이어지는 매우 가파른 슬레이트 경사지가 낮에 축적한 열을 밤에도 전달해 서늘한 기후에서도 포도가 익을 수 있게 하며, 산도가 매우 높고 미네랄리티가 강한 리슬링을 만든다.",
+    "source": "oboe.com, Old World Wine Regions — _workspace/01_knowledge_regions.md",
+    "refs": [
+      {
+        "label": "oboe.com, Old World Wine Regions",
+        "url": "https://oboe.com/learn/mastering-wset-level-3-wine-knowledge-gzqzry/old-world-wine-regions-2"
+      }
+    ]
+  },
+  {
+    "id": "napa-valley",
+    "name": "나파밸리",
+    "nameEn": "Napa Valley",
+    "country": "미국",
+    "world": "new",
+    "grapes": [
+      "카베르네 소비뇽",
+      "샤르도네"
+    ],
+    "climate": "지중해성/따뜻한 캘리포니아 기후, 다양한 미세기후",
+    "styleNote": "미국을 대표하는 프리미엄 와인 산지이자 카베르네 소비뇽의 성지. 따뜻하고 건조한 기후에 밸리 플로어~산지의 다양한 미세기후가 공존해 진하고 힘 있는 스타일의 레드를 만든다. 가격대가 높은 프리미엄·아이콘 와인이 많다.",
+    "source": "Global Wine Authority; California Winery Advisor — _workspace/01_knowledge_regions.md",
+    "refs": [
+      {
+        "label": "Global Wine Authority",
+        "url": "https://globalwineauthority.com/new-world-wine-regions/"
+      },
+      {
+        "label": "California Winery Advisor",
+        "url": "https://californiawineryadvisor.com/new-world-wine-regions/"
+      }
+    ]
+  },
+  {
+    "id": "central-valley-chile",
+    "name": "센트럴밸리",
+    "nameEn": "Central Valley",
+    "country": "칠레",
+    "world": "new",
+    "grapes": [
+      "카베르네 소비뇽",
+      "메를로",
+      "카르메네르"
+    ],
+    "climate": "안데스산맥·태평양 사이 온화한 기후, 큰 일교차",
+    "styleNote": "칠레 와인 생산의 중심지(마이포·라펠·쿠리코·마울레 등 세부 밸리 포함). 안데스산맥과 태평양 사이의 큰 일교차가 산도를 유지시키면서도 포도를 충분히 익게 한다. 칠레 시그니처 품종 카르메네르가 특히 유명.",
+    "source": "Global Wine Authority, New World Wine Regions — _workspace/01_knowledge_regions.md",
+    "refs": [
+      {
+        "label": "Global Wine Authority, New World Wine Regions",
+        "url": "https://globalwineauthority.com/new-world-wine-regions/"
+      }
+    ]
+  },
+  {
+    "id": "barossa-valley",
+    "name": "바로사밸리",
+    "nameEn": "Barossa Valley",
+    "country": "호주",
+    "world": "new",
+    "grapes": [
+      "쉬라즈"
+    ],
+    "climate": "따뜻한 대륙성 기후",
+    "styleNote": "호주를 대표하는 쉬라즈 산지. 블랙베리·자두 등 잼처럼 농축된 과실미와 초콜릿·스파이스 풍미의 진하고 힘 있는 풀바디 레드로 유명하며, 100년 넘은 올드바인이 남아있는 것으로도 알려져 있다.",
+    "source": "Global Wine Authority, New World Wine Regions — _workspace/01_knowledge_regions.md",
+    "refs": [
+      {
+        "label": "Global Wine Authority, New World Wine Regions",
+        "url": "https://globalwineauthority.com/new-world-wine-regions/"
+      }
+    ]
+  },
+  {
+    "id": "marlborough",
+    "name": "말버러",
+    "nameEn": "Marlborough",
+    "country": "뉴질랜드",
+    "world": "new",
+    "grapes": [
+      "소비뇽 블랑"
+    ],
+    "climate": "서늘한 해양성 기후, 강한 일조량",
+    "styleNote": "뉴질랜드 최대 와인 산지이자 소비뇽 블랑의 새로운 기준을 제시한 곳. 뉴질랜드 전체 와인 생산량의 약 77%를 차지한다(연도 미상). 자몽·패션프루트·풋풀 향이 강렬하게 살아있는 개성 강한 소비뇽 블랑을 만든다.",
+    "source": "Global Wine Authority, New World Wine Regions — _workspace/01_knowledge_regions.md",
+    "refs": [
+      {
+        "label": "Global Wine Authority, New World Wine Regions",
+        "url": "https://globalwineauthority.com/new-world-wine-regions/"
+      }
+    ]
+  },
+  {
+    "id": "mendoza",
+    "name": "멘도사",
+    "nameEn": "Mendoza",
+    "country": "아르헨티나",
+    "world": "new",
+    "grapes": [
+      "말벡",
+      "카베르네 소비뇽",
+      "토론테스(화이트)"
+    ],
+    "climate": "고지대 대륙성 기후(안데스 산기슭, 해발 900m 이상), 건조하고 일교차 큼",
+    "styleNote": "아르헨티나 와인의 심장부이자 세계 최고의 말벡 산지. 일조량은 풍부하지만 밤 기온이 낮아 산도를 지킨 채 진하고 부드러운 말벡을 만든다.",
+    "source": "Global Wine Authority, New World Wine Regions — _workspace/01_knowledge_regions.md",
+    "refs": [
+      {
+        "label": "Global Wine Authority, New World Wine Regions",
+        "url": "https://globalwineauthority.com/new-world-wine-regions/"
+      }
+    ]
+  }
+]

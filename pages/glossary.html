@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>용어 사전 — 와인 포털</title>
+<meta name="description" content="와인 초보자를 위한 용어 사전. 맛·감각, 양조·스타일, 원산지·등급, 서빙·실전 용어를 쉬운 정의·비유·실전 팁으로 풀어줍니다.">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div id="site-header"></div>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <h1 class="section-title">용어 사전</h1>
+      <p class="section-intro">어려운 와인 용어를 원어 병기와 함께 정의 → 비유 → 실전 팁 순서로 풀어서 정리했다.</p>
+
+      <div class="filter-bar">
+        <div class="tab-group" id="glossary-cat-tabs">
+          <button type="button" class="tab-btn active" data-category="all">전체</button>
+          <button type="button" class="tab-btn" data-category="맛·감각">맛·감각</button>
+          <button type="button" class="tab-btn" data-category="양조·스타일">양조·스타일</button>
+          <button type="button" class="tab-btn" data-category="원산지·등급">원산지·등급</button>
+          <button type="button" class="tab-btn" data-category="서빙·실전">서빙·실전</button>
+        </div>
+        <label>검색
+          <input type="search" id="glossary-search" placeholder="용어(한글/영문)">
+        </label>
+      </div>
+
+      <div class="card-grid" id="glossary-grid"></div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+
+<script>window.SITE_ROOT = "../";</script>
+<script src="../js/data.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/cellar.js"></script>
+<script src="../js/render.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    Render.initGlossary();
+  });
+</script>
+</body>
+</html>

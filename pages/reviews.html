@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>리뷰·평점 — 와인 포털</title>
+<meta name="description" content="대표 와인 스타일 카드를 둘러보고 직접 별점을 매겨보세요. 개인 평가는 이 브라우저에 저장됩니다.">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div id="site-header"></div>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <h1 class="section-title">리뷰·평점</h1>
+      <p class="section-intro">대표 스타일 카드를 둘러보고 내 평점을 매겨보세요.</p>
+      <div class="notice-box">★는 여러분이 남긴 개인 평가입니다. 이 사이트는 커뮤니티 집계 평점을 제공하지 않습니다.</div>
+
+      <div class="filter-bar">
+        <label>타입
+          <select id="reviews-filter-type">
+            <option value="all">전체</option>
+            <option value="red">레드</option>
+            <option value="white">화이트</option>
+          </select>
+        </label>
+        <label>가격대
+          <select id="reviews-filter-price">
+            <option value="all">전체</option>
+            <option value="daily">데일리</option>
+            <option value="mid">미들</option>
+            <option value="premium">프리미엄</option>
+          </select>
+        </label>
+        <label>정렬
+          <select id="reviews-sort">
+            <option value="name">이름순</option>
+            <option value="price">가격대순</option>
+            <option value="myrating">내 평점순</option>
+          </select>
+        </label>
+        <label>검색
+          <input type="search" id="reviews-search" placeholder="품종·산지·와인명">
+        </label>
+      </div>
+
+      <div class="card-grid" id="reviews-grid"></div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+
+<script>window.SITE_ROOT = "../";</script>
+<script src="../js/data.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/cellar.js"></script>
+<script src="../js/render.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    Render.initReviews();
+  });
+</script>
+</body>
+</html>
