@@ -903,3 +903,64 @@ table.price-table th {
   .section { padding: 28px 0; }
   table.price-table { min-width: 480px; }
 }
+
+/* ===== 향미(아로마) 사전 & 바디 스펙트럼 (guide.html) ===== */
+
+/* 앵커로 스크롤 이동 시 sticky 헤더에 가리지 않도록 여유를 둔다. */
+#body-spectrum-section,
+#aroma-dictionary-section,
+[id^="body-"],
+[id^="aroma-"] {
+  scroll-margin-top: 90px;
+}
+
+/* 품종 카드·상세 패널에서 향/바디 표기를 클릭 가능한 용어로 표시 —
+   본문 텍스트와 톤은 비슷하되 점선 밑줄로 "클릭 가능"임을 은은하게 신호한다. */
+.term-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: var(--color-gold);
+  text-underline-offset: 3px;
+  font-weight: 600;
+}
+
+.term-link:hover,
+.term-link:focus {
+  color: var(--color-burgundy);
+  text-decoration-style: solid;
+  text-decoration-color: var(--color-burgundy);
+}
+
+/* 향·바디 카드의 비유(analogy) 문구 — 인용구 스타일 */
+.term-analogy {
+  background: var(--color-cream);
+  border-left: 3px solid var(--color-gold-light);
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 0.88rem;
+  color: var(--color-gray);
+  font-style: italic;
+}
+
+/* 향미 사전 그룹 소제목 — 카드 그리드 위에서 구분선처럼 보이도록 */
+.aroma-group-title {
+  margin-top: 28px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--color-gold-light);
+}
+
+.aroma-group-title:first-of-type {
+  margin-top: 16px;
+}
+
+/* 바디 스펙트럼 빠른 팁 리스트 */
+ol.quick-hints {
+  margin: 0 0 1em;
+  padding-left: 22px;
+  color: var(--color-charcoal);
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
+
+ol.quick-hints li { margin-bottom: 4px; }

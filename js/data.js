@@ -1562,7 +1562,8 @@ window.WINE_DATA = {
       "definition": "입안에서 느껴지는 와인의 무게감. 물처럼 가벼운지 우유처럼 묵직한지의 정도.",
       "analogy": "저지방 우유(라이트바디)와 생크림(풀바디)의 질감 차이를 떠올리면 된다.",
       "tip": "알코올 도수가 높을수록(대략 13.5% 이상) 바디가 묵직해지는 경향이 있으니 라벨의 ABV를 힌트로 쓰자.",
-      "source": "_workspace/01_knowledge_tasting.md (Wine Folly)"
+      "source": "_workspace/01_knowledge_tasting.md (Wine Folly)",
+      "relatedGuideAnchor": "body-spectrum-section"
     },
     {
       "term": "산도",
@@ -1598,7 +1599,8 @@ window.WINE_DATA = {
       "definition": "와인에서 나는 향. 아로마는 포도 품종 자체의 과일·꽃 향(1차 향), 부케는 발효·숙성을 거치며 생기는 오크·가죽 같은 복합적인 향(2·3차 향)을 가리킨다.",
       "analogy": "아로마는 갓 딴 포도의 향, 부케는 오래 묵은 장을 열었을 때 나는 깊은 향이라고 보면 된다.",
       "tip": "잔을 가볍게 돌려(스월링) 향을 퍼뜨린 뒤 코를 가까이 대고 맡으면 훨씬 잘 느껴진다.",
-      "source": "_workspace/01_knowledge_tasting.md (Michelin Guide Korea)"
+      "source": "_workspace/01_knowledge_tasting.md (Michelin Guide Korea)",
+      "relatedGuideAnchor": "aroma-dictionary-section"
     },
     {
       "term": "미네랄리티",
@@ -1999,6 +2001,546 @@ window.WINE_DATA = {
       "라벨을 다 이해하지 못해도 괜찮다. 지역명/품종명 + 빈티지 + ABV, 이 세 가지만 확인해도 충분히 감을 잡을 수 있다."
     ],
     "source": "종합: _workspace/01_knowledge_regions.md, _workspace/01_knowledge_grapes.md + WebSearch(프랑스/이탈리아/독일/스페인 등급 체계, 공통 라벨 용어) — 상세 출처는 gradings 각 항목에 병기"
+  },
+
+  // 향미(아로마) 사전 36개, 7그룹 — 02_data/aromas.json
+  aromas: [
+    {
+      "id": "cassis",
+      "term": "블랙커런트(카시스)",
+      "termEn": "Blackcurrant / Cassis",
+      "group": "black-fruit",
+      "groupLabel": "검은 과일",
+      "definition": "새콤달콤하면서 살짝 풋내가 도는 짙은 검붉은 열매향. 카베르네 소비뇽 하면 떠오르는 대표 향",
+      "analogy": "카시스 리큐어나 블랙커런트 잼 향",
+      "origin": "품종 자체(포도) + 발효 중 생성되는 황 화합물(4MMP)의 상호작용",
+      "grapes": ["카베르네 소비뇽"],
+      "matches": ["블랙커런트", "카시스"],
+      "source": "_workspace/02_data/grapes.json(카베르네 소비뇽 항목); 09_tasting_terms.md 도입부(4MMP 설명)",
+      "refs": [
+        { "label": "Decanter China, Tasting notes decoded: Violet, hay, cassis, cedar", "url": "https://www.decanterchina.com/en/knowledge/trivia/tasting-notes-decoded-violet-hay-cassis-cedar" },
+        { "label": "Oenobrands, Key positive aroma compounds", "url": "https://oenobrands.com/solution/wine-aroma/key-positive-aroma-compounds/" }
+      ]
+    },
+    {
+      "id": "blackberry",
+      "term": "블랙베리",
+      "termEn": "Blackberry",
+      "group": "black-fruit",
+      "groupLabel": "검은 과일",
+      "definition": "카시스보다 좀 더 즙이 많고 달콤한 검은 베리향",
+      "analogy": "잘 익은 블랙베리를 씹었을 때의 향",
+      "origin": "품종 자체(포도 껍질 향 화합물)",
+      "grapes": ["시라/쉬라즈", "말벡"],
+      "matches": ["블랙베리"],
+      "source": "_workspace/02_data/grapes.json(시라·말벡 항목)",
+      "refs": [
+        { "label": "Decanter China, Tasting notes decoded", "url": "https://www.decanterchina.com/en/knowledge/trivia/tasting-notes-decoded-violet-hay-cassis-cedar" }
+      ]
+    },
+    {
+      "id": "black-cherry",
+      "term": "블랙체리",
+      "termEn": "Black Cherry",
+      "group": "black-fruit",
+      "groupLabel": "검은 과일",
+      "definition": "체리보다 더 진하고 무게감 있는 검붉은 체리향",
+      "analogy": "잘 익어 거의 검게 변한 체리",
+      "origin": "품종 자체(포도)",
+      "grapes": ["메를로"],
+      "matches": ["블랙체리"],
+      "source": "_workspace/02_data/grapes.json(메를로 항목)"
+    },
+    {
+      "id": "plum",
+      "term": "자두",
+      "termEn": "Plum",
+      "group": "black-fruit",
+      "groupLabel": "검은 과일",
+      "definition": "달콤하면서 약간의 산미가 있는 통통한 자두 향. 레드 와인에서 가장 흔하게 등장하는 향",
+      "analogy": "잘 익은 자두를 반으로 갈랐을 때 나는 향",
+      "origin": "품종 자체(포도)",
+      "grapes": ["카베르네 소비뇽", "메를로", "시라", "산지오베제", "템프라니요", "말벡"],
+      "matches": ["자두"],
+      "source": "_workspace/02_data/grapes.json(카베르네 소비뇽·메를로·시라·산지오베제·템프라니요·말벡 항목)"
+    },
+    {
+      "id": "dried-cherry",
+      "term": "말린 체리",
+      "termEn": "Dried Cherry",
+      "group": "black-fruit",
+      "groupLabel": "검은 과일",
+      "definition": "생체리보다 농축되고 살짝 건포도 같은 뉘앙스가 도는 향",
+      "analogy": "말린 체리(건과일)를 씹었을 때의 응축된 단맛 향",
+      "origin": "품종 자체 + 장기 숙성으로 향이 농축됨",
+      "grapes": ["네비올로"],
+      "matches": ["말린 체리"],
+      "source": "_workspace/02_data/grapes.json(네비올로 항목)"
+    },
+    {
+      "id": "cherry",
+      "term": "체리",
+      "termEn": "Cherry",
+      "group": "red-fruit",
+      "groupLabel": "붉은 과일",
+      "definition": "새콤달콤하고 밝은 붉은 과일향. 검은 과일보다 가볍고 산뜻하다",
+      "analogy": "생체리를 한 입 베어물었을 때의 향",
+      "origin": "품종 자체(포도)",
+      "grapes": ["피노 누아", "산지오베제", "템프라니요"],
+      "matches": ["체리"],
+      "source": "_workspace/02_data/grapes.json(피노 누아·산지오베제·템프라니요 항목)"
+    },
+    {
+      "id": "strawberry",
+      "term": "딸기",
+      "termEn": "Strawberry",
+      "group": "red-fruit",
+      "groupLabel": "붉은 과일",
+      "definition": "체리보다도 더 가볍고 달콤한 붉은 베리향",
+      "analogy": "잘 익은 딸기 향",
+      "origin": "품종 자체(포도)",
+      "grapes": ["피노 누아"],
+      "matches": ["딸기"],
+      "source": "_workspace/02_data/grapes.json(피노 누아 항목)"
+    },
+    {
+      "id": "apple-green-apple",
+      "term": "사과·그린애플",
+      "termEn": "Apple / Green Apple",
+      "group": "citrus-orchard",
+      "groupLabel": "감귤·과수 과일",
+      "definition": "아삭하고 신선한 사과향. 특히 덜 익은 풋사과의 신맛 도는 향",
+      "analogy": "아오리 사과나 청사과를 베어물었을 때 향",
+      "origin": "품종 자체(포도)",
+      "grapes": ["샤르도네", "소비뇽 블랑", "피노 그리지오"],
+      "matches": ["그린애플", "사과"],
+      "source": "_workspace/02_data/grapes.json(샤르도네·소비뇽 블랑·피노 그리지오 항목)",
+      "refs": [
+        { "label": "Amsterdam Wine Academy, Top 10 White Grape Varieties", "url": "https://amsterdamwineacademy.com/en/top-10-white-grape-varieties-and-their-flavor-profiles/" }
+      ]
+    },
+    {
+      "id": "pear",
+      "term": "배",
+      "termEn": "Pear",
+      "group": "citrus-orchard",
+      "groupLabel": "감귤·과수 과일",
+      "definition": "사과보다 좀 더 부드럽고 은은하게 달콤한 향",
+      "analogy": "잘 익은 배의 은은한 단내",
+      "origin": "품종 자체(포도)",
+      "grapes": ["피노 그리지오"],
+      "matches": ["배"],
+      "source": "_workspace/02_data/grapes.json(피노 그리지오 항목)"
+    },
+    {
+      "id": "citrus",
+      "term": "시트러스·감귤",
+      "termEn": "Citrus",
+      "group": "citrus-orchard",
+      "groupLabel": "감귤·과수 과일",
+      "definition": "상큼하고 톡 쏘는 귤·오렌지 계열의 상쾌한 향",
+      "analogy": "귤껍질을 깠을 때 손끝에 남는 향",
+      "origin": "품종 자체(포도)",
+      "grapes": ["샤르도네", "피노 그리지오", "모스카토"],
+      "matches": ["시트러스", "감귤"],
+      "source": "_workspace/02_data/grapes.json(샤르도네·피노 그리지오·모스카토 항목)",
+      "refs": [
+        { "label": "Amsterdam Wine Academy, Top 10 White Grape Varieties", "url": "https://amsterdamwineacademy.com/en/top-10-white-grape-varieties-and-their-flavor-profiles/" }
+      ]
+    },
+    {
+      "id": "grapefruit",
+      "term": "자몽",
+      "termEn": "Grapefruit",
+      "group": "citrus-orchard",
+      "groupLabel": "감귤·과수 과일",
+      "definition": "시트러스보다 쌉싸름함이 도는 새콤한 향. 소비뇽 블랑의 시그니처 향",
+      "analogy": "자몽을 반으로 갈라 향을 맡았을 때",
+      "origin": "품종 자체(포도 껍질의 황 화합물)",
+      "grapes": ["소비뇽 블랑"],
+      "matches": ["자몽"],
+      "source": "_workspace/02_data/grapes.json(소비뇽 블랑 항목)"
+    },
+    {
+      "id": "lime",
+      "term": "라임",
+      "termEn": "Lime",
+      "group": "citrus-orchard",
+      "groupLabel": "감귤·과수 과일",
+      "definition": "레몬보다 더 날카롭고 산뜻한 초록빛 감귤향",
+      "analogy": "라임 조각을 짜냈을 때의 톡 쏘는 향",
+      "origin": "품종 자체(포도)",
+      "grapes": ["리슬링"],
+      "matches": ["라임"],
+      "source": "_workspace/02_data/grapes.json(리슬링 항목)"
+    },
+    {
+      "id": "peach",
+      "term": "복숭아",
+      "termEn": "Peach",
+      "group": "citrus-orchard",
+      "groupLabel": "감귤·과수 과일",
+      "definition": "달콤하고 은은하게 과즙이 도는 향",
+      "analogy": "잘 익은 복숭아 향",
+      "origin": "품종 자체(포도)",
+      "grapes": ["리슬링", "게뷔르츠트라미너"],
+      "matches": ["복숭아"],
+      "source": "_workspace/02_data/grapes.json(리슬링·게뷔르츠트라미너 항목)"
+    },
+    {
+      "id": "mango",
+      "term": "망고",
+      "termEn": "Mango",
+      "group": "citrus-orchard",
+      "groupLabel": "감귤·과수 과일",
+      "definition": "진하고 열대과일 특유의 달콤한 향",
+      "analogy": "잘 익은 망고를 잘랐을 때 향",
+      "origin": "품종 자체(포도)",
+      "grapes": ["게뷔르츠트라미너"],
+      "matches": ["망고"],
+      "source": "_workspace/02_data/grapes.json(게뷔르츠트라미너 항목)"
+    },
+    {
+      "id": "passion-fruit",
+      "term": "패션프루트",
+      "termEn": "Passion Fruit",
+      "group": "citrus-orchard",
+      "groupLabel": "감귤·과수 과일",
+      "definition": "새콤달콤하고 강렬한 열대과일 향. 뉴질랜드 소비뇽 블랑의 시그니처",
+      "analogy": "패션프루트(백향과)를 반으로 갈랐을 때의 강한 향",
+      "origin": "품종 자체(포도 껍질의 티올 화합물), 따뜻한 산지에서 더 도드라짐",
+      "grapes": ["소비뇽 블랑(뉴질랜드산)"],
+      "matches": ["패션프루트"],
+      "source": "_workspace/02_data/grapes.json(소비뇽 블랑 항목)"
+    },
+    {
+      "id": "lychee",
+      "term": "리치",
+      "termEn": "Lychee",
+      "group": "citrus-orchard",
+      "groupLabel": "감귤·과수 과일",
+      "definition": "달콤하고 화사한 열대과일 향, 장미향과 함께 나는 경우가 많다",
+      "analogy": "리치 캔 통조림을 열었을 때의 달콤한 향",
+      "origin": "품종 자체(포도의 테르펜 화합물)",
+      "grapes": ["게뷔르츠트라미너"],
+      "matches": ["리치"],
+      "source": "_workspace/02_data/grapes.json(게뷔르츠트라미너 항목)"
+    },
+    {
+      "id": "grape-muscat",
+      "term": "포도",
+      "termEn": "Grape / Muscat",
+      "group": "citrus-orchard",
+      "groupLabel": "감귤·과수 과일",
+      "definition": "\"포도맛 사탕\"처럼 포도 그 자체의 향이 뚜렷하게 나는, 흔치 않은 사례",
+      "analogy": "포도맛 사탕이나 생 청포도 향",
+      "origin": "품종 자체(모스카토는 테르펜 함량이 높아 포도 본연의 향이 유난히 강하게 남는 품종)",
+      "grapes": ["모스카토"],
+      "matches": ["포도"],
+      "source": "_workspace/02_data/grapes.json(모스카토 항목)"
+    },
+    {
+      "id": "rose-rose-petal",
+      "term": "장미·장미꽃잎",
+      "termEn": "Rose / Rose Petal",
+      "group": "floral",
+      "groupLabel": "꽃",
+      "definition": "은은하고 화사한 꽃향. 향수에서도 자주 쓰이는 익숙한 꽃향",
+      "analogy": "장미 꽃잎을 코에 가까이 댔을 때의 향",
+      "origin": "품종 자체(포도의 테르펜 화합물)",
+      "grapes": ["네비올로", "게뷔르츠트라미너"],
+      "matches": ["장미꽃잎", "장미"],
+      "source": "_workspace/02_data/grapes.json(네비올로·게뷔르츠트라미너 항목)"
+    },
+    {
+      "id": "white-blossom-honeysuckle",
+      "term": "백화·허니서클(인동초)",
+      "termEn": "White Blossom / Honeysuckle",
+      "group": "floral",
+      "groupLabel": "꽃",
+      "definition": "하얀 꽃(아카시아·인동초 등)에서 나는 달콤하고 은은한 향",
+      "analogy": "봄철 아카시아 꽃향기",
+      "origin": "품종 자체(포도의 테르펜 화합물)",
+      "grapes": ["모스카토"],
+      "matches": ["허니서클", "인동초", "백화"],
+      "source": "_workspace/02_data/grapes.json(모스카토 항목)"
+    },
+    {
+      "id": "black-white-pepper",
+      "term": "후추",
+      "termEn": "Black/White Pepper",
+      "group": "spice-herb",
+      "groupLabel": "향신료·허브",
+      "definition": "코를 살짝 자극하는 매콤한 향신료향",
+      "analogy": "후추 그라인더를 갈았을 때 코끝에 확 퍼지는 향",
+      "origin": "품종 자체(로타룬돈이라는 향 화합물), 서늘한 산지일수록 강함",
+      "grapes": ["시라(프랑스 론)"],
+      "matches": ["후추"],
+      "source": "_workspace/02_data/grapes.json(시라 항목)",
+      "refs": [
+        { "label": "Decanter China, Tasting notes decoded", "url": "https://www.decanterchina.com/en/knowledge/trivia/tasting-notes-decoded-violet-hay-cassis-cedar" }
+      ]
+    },
+    {
+      "id": "licorice",
+      "term": "감초",
+      "termEn": "Licorice",
+      "group": "spice-herb",
+      "groupLabel": "향신료·허브",
+      "definition": "살짝 씁쓸하면서 달콤한 한약재 느낌의 향",
+      "analogy": "감초차나 한방 약재 향",
+      "origin": "품종 자체 + 오크 숙성",
+      "grapes": ["시라", "네비올로"],
+      "matches": ["감초"],
+      "source": "_workspace/02_data/grapes.json(시라·네비올로 항목)"
+    },
+    {
+      "id": "ginger",
+      "term": "생강",
+      "termEn": "Ginger",
+      "group": "spice-herb",
+      "groupLabel": "향신료·허브",
+      "definition": "알싸하고 톡 쏘는 향신료 향",
+      "analogy": "생강차나 편강 향",
+      "origin": "품종 자체(포도의 테르펜 화합물)",
+      "grapes": ["게뷔르츠트라미너"],
+      "matches": ["생강"],
+      "source": "_workspace/02_data/grapes.json(게뷔르츠트라미너 항목)"
+    },
+    {
+      "id": "cedarwood",
+      "term": "시더우드(삼나무)",
+      "termEn": "Cedarwood",
+      "group": "spice-herb",
+      "groupLabel": "향신료·허브",
+      "definition": "연필을 깎았을 때 나는 나무 향, 은은하고 마른 느낌",
+      "analogy": "새로 깎은 연필이나 삼나무 서랍장 향",
+      "origin": "오크통 숙성에서 배어드는 향(포도 자체 향이 아님)",
+      "grapes": ["카베르네 소비뇽"],
+      "matches": ["시더우드", "삼나무"],
+      "source": "_workspace/02_data/grapes.json(카베르네 소비뇽 항목)",
+      "refs": [
+        { "label": "Decanter China, Tasting notes decoded", "url": "https://www.decanterchina.com/en/knowledge/trivia/tasting-notes-decoded-violet-hay-cassis-cedar" }
+      ]
+    },
+    {
+      "id": "tar",
+      "term": "타르",
+      "termEn": "Tar",
+      "group": "spice-herb",
+      "groupLabel": "향신료·허브",
+      "definition": "언뜻 이상하게 들리지만, 아스팔트·역청처럼 진하고 스모키한 뉘앙스",
+      "analogy": "갓 포장한 도로(아스팔트)의 냄새를 옅게 떠올리면 된다",
+      "origin": "품종 자체(네비올로 특유의 향 화합물), 숙성될수록 뚜렷해짐",
+      "grapes": ["네비올로"],
+      "matches": ["타르"],
+      "source": "_workspace/02_data/grapes.json(네비올로 항목) — 결함이 아니라 바롤로·바르바레스코 특유의 매력 포인트로 평가됨"
+    },
+    {
+      "id": "bell-pepper-green-pepper",
+      "term": "피망(풋내)",
+      "termEn": "Bell Pepper / Green Pepper",
+      "group": "spice-herb",
+      "groupLabel": "향신료·허브",
+      "definition": "살짝 풋내 나는 그린 채소향. 덜 익은 포도에서 도드라진다",
+      "analogy": "생 피망을 썰었을 때 나는 풋내",
+      "origin": "품종 자체의 화합물(피라진), 서늘한 산지·덜 익은 포도일수록 강함",
+      "grapes": ["카베르네 소비뇽(서늘한 산지)"],
+      "matches": ["피망"],
+      "source": "_workspace/02_data/grapes.json(카베르네 소비뇽 항목)"
+    },
+    {
+      "id": "herbaceous-cut-grass",
+      "term": "풋풀(허브)",
+      "termEn": "Herbaceous / Cut Grass",
+      "group": "spice-herb",
+      "groupLabel": "향신료·허브",
+      "definition": "방금 벤 잔디나 허브밭 같은 싱그러운 풀향",
+      "analogy": "잔디를 막 깎았을 때 나는 풀내음",
+      "origin": "품종 자체의 화합물, 소비뇽 블랑의 시그니처",
+      "grapes": ["소비뇽 블랑"],
+      "matches": ["풋풀", "허브"],
+      "source": "_workspace/02_data/grapes.json(소비뇽 블랑 항목)"
+    },
+    {
+      "id": "savory",
+      "term": "세이보리(흙·허브)",
+      "termEn": "Savory",
+      "group": "spice-herb",
+      "groupLabel": "향신료·허브",
+      "definition": "\"달콤한 과일향의 반대편\" — 허브·흙·감칠맛이 도는 짭짤하고 구수한 뉘앙스. 단맛이 아니라 요리에 넣는 허브·향신료 쪽에 가깝다",
+      "analogy": "로즈마리·타임 같은 말린 허브를 손으로 비볐을 때 나는 향, 또는 잘 구운 고기의 감칠맛 나는 향",
+      "origin": "품종 자체 + 토양(테루아)의 영향",
+      "grapes": ["산지오베제"],
+      "matches": ["흙·허브", "세이보리"],
+      "source": "_workspace/02_data/grapes.json(산지오베제 항목)"
+    },
+    {
+      "id": "vanilla",
+      "term": "바닐라",
+      "termEn": "Vanilla",
+      "group": "oak",
+      "groupLabel": "오크 숙성에서 오는 향",
+      "definition": "달콤하고 부드러운 바닐라 향",
+      "analogy": "바닐라 아이스크림·바닐라빈 향",
+      "origin": "오크통 숙성(새 오크일수록 강함)",
+      "grapes": ["카베르네 소비뇽", "템프라니요", "샤르도네(오크 숙성 시)"],
+      "matches": ["바닐라"],
+      "source": "_workspace/01_knowledge_winemaking.md(오크 숙성 항목); _workspace/02_data/grapes.json(카베르네 소비뇽·템프라니요·샤르도네 항목)"
+    },
+    {
+      "id": "buttery",
+      "term": "버터",
+      "termEn": "Buttery",
+      "group": "oak",
+      "groupLabel": "오크 숙성에서 오는 향",
+      "definition": "고소하고 크리미한 유제품 향",
+      "analogy": "버터를 녹였을 때 나는 고소한 향",
+      "origin": "말로락틱 발효(MLF) — 오크 숙성 샤르도네에서 특히 두드러짐",
+      "grapes": ["샤르도네(오크 숙성 시)"],
+      "matches": ["버터"],
+      "source": "_workspace/01_knowledge_winemaking.md(말로락틱 발효 항목); _workspace/02_data/glossary.json(말로락틱 발효 항목); _workspace/02_data/grapes.json(샤르도네 항목)"
+    },
+    {
+      "id": "chocolate-mocha",
+      "term": "초콜릿·모카",
+      "termEn": "Chocolate / Mocha",
+      "group": "oak",
+      "groupLabel": "오크 숙성에서 오는 향",
+      "definition": "달콤쌉싸름한 초콜릿·커피 향",
+      "analogy": "다크초콜릿이나 모카커피 향",
+      "origin": "품종 자체 + 오크 숙성",
+      "grapes": ["메를로", "말벡"],
+      "matches": ["초콜릿·모카", "초콜릿", "모카"],
+      "source": "_workspace/01_knowledge_winemaking.md(오크 숙성 항목); _workspace/02_data/grapes.json(메를로·말벡 항목)"
+    },
+    {
+      "id": "leather",
+      "term": "가죽",
+      "termEn": "Leather",
+      "group": "oak",
+      "groupLabel": "오크 숙성에서 오는 향",
+      "definition": "묵직하고 살짝 스모키한, 오래된 가죽 제품 향",
+      "analogy": "새 가죽 가방이나 가죽 소파 향",
+      "origin": "오크 숙성 + 병 숙성(3차 향)",
+      "grapes": ["템프라니요(오크 숙성 시)"],
+      "matches": ["가죽"],
+      "source": "_workspace/02_data/grapes.json(템프라니요 항목)"
+    },
+    {
+      "id": "smoky",
+      "term": "스모키",
+      "termEn": "Smoky",
+      "group": "oak",
+      "groupLabel": "오크 숙성에서 오는 향",
+      "definition": "은은하게 훈제된 듯한 향",
+      "analogy": "훈제 베이컨이나 캠프파이어 연기 향",
+      "origin": "오크 숙성(오크통을 불로 그을리는 \"토스팅\" 공정에서 비롯)",
+      "grapes": ["말벡"],
+      "matches": ["스모키"],
+      "source": "_workspace/01_knowledge_winemaking.md(오크 숙성 항목); _workspace/02_data/grapes.json(말벡 항목)"
+    },
+    {
+      "id": "earthy-mushroom",
+      "term": "흙·버섯",
+      "termEn": "Earthy / Mushroom",
+      "group": "earth-mineral",
+      "groupLabel": "흙·미네랄·기타",
+      "definition": "촉촉한 흙이나 버섯 같은, 달지 않고 깊은 향",
+      "analogy": "비 온 뒤 숲길이나 양송이버섯을 손질할 때 나는 향",
+      "origin": "병 숙성(3차 향) — 시간이 지나며 과일향이 가라앉고 흙·버섯 향이 올라온다",
+      "grapes": ["피노 누아(숙성 시)"],
+      "matches": ["흙·버섯"],
+      "source": "_workspace/02_data/grapes.json(피노 누아 항목)"
+    },
+    {
+      "id": "minerality",
+      "term": "미네랄",
+      "termEn": "Minerality",
+      "group": "earth-mineral",
+      "groupLabel": "흙·미네랄·기타",
+      "definition": "젖은 돌·자갈에서 나는 것 같은 서늘하고 짭짤한 뉘앙스",
+      "analogy": "비 온 뒤 아스팔트나 조약돌 냄새",
+      "origin": "토양(테루아) — 슬레이트·석회암 토양의 서늘한 산지에서 자주 나타남",
+      "grapes": ["피노 그리지오", "리슬링"],
+      "matches": ["미네랄리티", "미네랄"],
+      "source": "_workspace/02_data/grapes.json(피노 그리지오·리슬링 항목); _workspace/02_data/glossary.json(미네랄리티 항목)"
+    },
+    {
+      "id": "petrol-kerosene",
+      "term": "페트롤 뉘앙스",
+      "termEn": "Petrol / Kerosene Note",
+      "group": "earth-mineral",
+      "groupLabel": "흙·미네랄·기타",
+      "definition": "언뜻 \"불량\"처럼 들리지만, 잘 숙성된 리슬링 특유의 매력적인 향",
+      "analogy": "주유소에서 나는 휘발유 냄새를 아주 옅게 떠올리면 된다(실제로는 거슬리지 않고 은은하다)",
+      "origin": "병 숙성(TDN이라는 화합물이 포도 껍질의 카로티노이드 성분에서 서서히 생성됨) — 결함이 아니라 숙성된 리슬링의 매력 포인트",
+      "grapes": ["리슬링(숙성 시)"],
+      "matches": ["페트롤 뉘앙스", "페트롤"],
+      "source": "_workspace/02_data/grapes.json(리슬링 항목)",
+      "refs": [
+        { "label": "Wine Spectator, Why do aged Rieslings develop a petrol-like character?", "url": "https://www.winespectator.com/articles/what-causes-petrol-note-in-aged-riesling-57107" },
+        { "label": "wineanorak.com, Introducing TDN", "url": "https://wineanorak.com/2020/08/29/introducing-tdn-a-compound-responsible-for-petrol-aromas-in-riesling-and-other-white-wines/" },
+        { "label": "PMC, Petrol Note in Riesling — TDN Selectively Activates Human Odorant Receptor OR8H1", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10921549/" },
+        { "label": "SevenFifty Daily, The Science of Petrol Aromas in Wine", "url": "https://daily.sevenfifty.com/the-science-of-petrol-aromas-in-wine/" }
+      ]
+    },
+    {
+      "id": "honey",
+      "term": "꿀",
+      "termEn": "Honey",
+      "group": "earth-mineral",
+      "groupLabel": "흙·미네랄·기타",
+      "definition": "달콤하고 농후한 향, 당도가 있는 화이트 와인에서 자주 언급",
+      "analogy": "아카시아 꿀 한 스푼의 향",
+      "origin": "품종 자체 + 잔당(당도)",
+      "grapes": ["리슬링"],
+      "matches": ["꿀"],
+      "source": "_workspace/02_data/grapes.json(리슬링 항목)"
+    }
+  ],
+
+  // 바디 스펙트럼 3단계 — 02_data/body.json
+  body: {
+    "levels": [
+      {
+        "id": "light",
+        "label": "라이트바디",
+        "labelEn": "Light-bodied",
+        "definition": "입안에서 가볍고 산뜻하게 느껴지는, 물에 가까운 무게감",
+        "analogy": "탈지우유 또는 생수에 가까운 가벼움",
+        "examples": ["모스카토(라이트)", "피노 누아(라이트~미디엄)", "리슬링(라이트~미디엄)", "소비뇽 블랑(라이트~미디엄)"],
+        "abvHint": "대체로 12%대 초반 이하",
+        "matches": ["라이트"]
+      },
+      {
+        "id": "medium",
+        "label": "미디엄바디",
+        "labelEn": "Medium-bodied",
+        "definition": "가볍지도 무겁지도 않은, 가장 무난하고 균형 잡힌 무게감",
+        "analogy": "일반 우유(흰 우유)의 질감",
+        "examples": ["산지오베제(미디엄)", "메를로(미디엄~풀)", "템프라니요(미디엄~풀)"],
+        "abvHint": "대체로 12.5~13.5% 부근",
+        "matches": ["미디엄"]
+      },
+      {
+        "id": "full",
+        "label": "풀바디",
+        "labelEn": "Full-bodied",
+        "definition": "입안 전체를 꽉 채우는 묵직하고 진한 무게감",
+        "analogy": "생크림에 가까운 진하고 농후한 질감",
+        "examples": ["카베르네 소비뇽", "시라(쉬라즈)", "말벡"],
+        "abvHint": "대체로 13.5~14% 이상",
+        "matches": ["풀"]
+      }
+    ],
+    "intermediateNote": "\"미디엄~풀바디\"처럼 중간 표기가 있는 이유는 바디가 알코올 도수·오크 숙성 여부·산지 기후·양조 방식에 따라 같은 품종 안에서도 편차가 크기 때문이다. 예를 들어 메를로는 서늘한 산지의 가벼운 스타일부터 캘리포니아의 진한 스타일까지 폭이 넓어 \"미디엄~풀바디\"로 범위를 표기한다. 샤르도네는 양조 방식(무오크 vs 오크 숙성)에 따라 편차가 가장 커서 \"라이트~풀바디\"라는 넓은 범위로 표기된다.",
+    "quickHints": [
+      "라벨의 ABV(알코올 도수)를 본다 — 도수가 높을수록 바디가 무거워지는 경향이 있다",
+      "오크 숙성 여부를 본다 — \"oaked\"라고 적혀 있으면 바디가 더 묵직해지는 경향이 있다",
+      "품종 이름 자체가 힌트다 — 카베르네 소비뇽·시라·말벡처럼 껍질이 두껍고 탄닌이 강한 품종은 대체로 풀바디, 피노 누아처럼 껍질이 얇은 품종은 라이트바디로 기억해 두면 편하다"
+    ],
+    "source": "_workspace/01_knowledge_tasting.md(Wine Folly, What Is Wine Body; 브런치 산도·타닌·바디); _workspace/02_data/grapes.json(각 품종 body 필드 및 대표 산지); _workspace/02_data/glossary.json(바디 항목, ABV 항목)"
   },
 
   // 조사 공백 → "준비 중" 안내(02_sitemap.md 참조)

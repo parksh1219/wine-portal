@@ -72,7 +72,9 @@
     }
 
     function cardHtml(g) {
-      var preview = g.aromas.slice(0, 3).join(", ");
+      var previewHtml = g.aromas.slice(0, 3).map(function (a) {
+        return U.linkifyByDictionary(a, window.WINE_DATA.aromas, "aroma", "guide.html");
+      }).join(", ");
       return '' +
         '<article class="wine-card" id="grape-' + g.id + '" data-id="' + g.id + '" tabindex="0" role="button" aria-expanded="false">' +
         '  <div class="card-media">' + U.wineGlassSvg(g.color) + '</div>' +
@@ -80,8 +82,8 @@
         '    <span class="badge ' + U.typeBadgeClass(g.color) + '">' + (g.color === "red" ? "레드" : "화이트") + '</span>' +
         '  </div>' +
         '  <h3 class="card-title">' + U.escapeHtml(g.name) + '</h3>' +
-        '  <p class="card-sub">' + U.escapeHtml(g.nameEn) + ' · ' + U.escapeHtml(g.body) + '</p>' +
-        '  <p class="card-desc">대표 향미: ' + U.escapeHtml(preview) + '</p>' +
+        '  <p class="card-sub">' + U.escapeHtml(g.nameEn) + ' · ' + U.linkifyByDictionary(g.body, window.WINE_DATA.body.levels, "body", "guide.html") + '</p>' +
+        '  <p class="card-desc">대표 향미: ' + previewHtml + '</p>' +
         '</article>';
     }
 
@@ -110,9 +112,11 @@
         '  <button class="close-btn" type="button" aria-label="닫기">✕</button>' +
         '  <span class="badge ' + U.typeBadgeClass(g.color) + '">' + (g.color === "red" ? "레드" : "화이트") + '</span>' +
         '  <h2>' + U.escapeHtml(g.name) + ' <span class="text-muted" style="font-size:1rem;">(' + U.escapeHtml(g.nameEn) + ')</span></h2>' +
-        '  <p><strong>바디:</strong> ' + U.escapeHtml(g.body) + '</p>' +
+        '  <p><strong>바디:</strong> ' + U.linkifyByDictionary(g.body, window.WINE_DATA.body.levels, "body", "guide.html") + '</p>' +
         '  <p>' + U.escapeHtml(g.description) + '</p>' +
-        '  <p><strong>대표 향미:</strong> ' + U.escapeHtml(g.aromas.join(", ")) + '</p>' +
+        '  <p><strong>대표 향미:</strong> ' + g.aromas.map(function (a) {
+          return U.linkifyByDictionary(a, window.WINE_DATA.aromas, "aroma", "guide.html");
+        }).join(", ") + '</p>' +
         '  <p><strong>주요 재배 지역:</strong> ' + U.escapeHtml(g.regions.join(", ")) + '</p>' +
         '  <p><strong>초심자 팁:</strong> ' + U.escapeHtml(g.beginnerTip) + '</p>' +
         '  <p>' + U.extLink(U.wikiUrl(g.name), '📖 위키백과에서 보기(사진·상세)') + '</p>' +
@@ -355,6 +359,60 @@
       return '<article class="wine-card"><h3 class="card-title">' + U.escapeHtml(a.name) + '</h3><p class="card-desc">' + U.escapeHtml(a.meaning) + '</p></article>';
     }).join("") + '</div><p class="source-note">출처: ' + U.refsHtml(g.tasting) + '</p>';
 
+    // ===== 바디 스펙트럼(3단계) — 02_data/body.json =====
+    var bodyData = window.WINE_DATA.body;
+    var bodySpectrumHtml = '<h2 id="body-spectrum-section">바디 스펙트럼</h2>' +
+      '<p class="section-intro">품종 페이지의 "라이트바디·미디엄바디·풀바디" 표기가 실제로 어떤 무게감을 뜻하는지 정리했다.</p>' +
+      '<div class="card-grid">' + bodyData.levels.map(function (lvl) {
+        return '' +
+          '<article class="wine-card" id="body-' + lvl.id + '">' +
+          '  <h3 class="card-title">' + U.escapeHtml(lvl.label) + '</h3>' +
+          '  <p class="card-sub">' + U.escapeHtml(lvl.labelEn) + '</p>' +
+          '  <p class="card-desc">' + U.escapeHtml(lvl.definition) + '</p>' +
+          '  <p class="term-analogy">💬 ' + U.escapeHtml(lvl.analogy) + '</p>' +
+          '  <p class="card-desc"><strong>대표 예시:</strong> ' + lvl.examples.map(function (e) { return U.escapeHtml(e); }).join(", ") + '</p>' +
+          '  <span class="badge badge-outline">ABV 힌트: ' + U.escapeHtml(lvl.abvHint) + '</span>' +
+          '</article>';
+      }).join("") + '</div>' +
+      '<div class="notice-box">' + U.escapeHtml(bodyData.intermediateNote) + '</div>' +
+      '<h3>바디를 가늠하는 빠른 팁</h3>' +
+      '<ol class="quick-hints">' + bodyData.quickHints.map(function (h) {
+        return '<li>' + U.escapeHtml(h) + '</li>';
+      }).join("") + '</ol>' +
+      '<p class="source-note">출처: ' + U.refsHtml(bodyData) + '</p>';
+
+    // ===== 향미(아로마) 사전(7그룹 36개) — 02_data/aromas.json =====
+    var AROMA_GROUP_ORDER = ["black-fruit", "red-fruit", "citrus-orchard", "floral", "spice-herb", "oak", "earth-mineral"];
+    var aromasData = window.WINE_DATA.aromas || [];
+
+    function aromaCardHtml(a) {
+      var grapesHtml = (a.grapes || []).map(function (gname) {
+        var gid = findGrapeIdByText(gname);
+        return gid ? '<a href="grapes.html#grape-' + gid + '">' + U.escapeHtml(gname) + '</a>' : U.escapeHtml(gname);
+      }).join(", ");
+      return '' +
+        '<article class="wine-card aroma-card" id="aroma-' + a.id + '">' +
+        '  <h3 class="card-title">' + U.escapeHtml(a.term) + '</h3>' +
+        '  <p class="card-sub">' + U.escapeHtml(a.termEn) + '</p>' +
+        '  <p class="card-desc">' + U.escapeHtml(a.definition) + '</p>' +
+        '  <p class="term-analogy">💬 ' + U.escapeHtml(a.analogy) + '</p>' +
+        '  <p class="card-desc"><strong>유래:</strong> ' + U.escapeHtml(a.origin) + '</p>' +
+        (grapesHtml ? '  <p class="card-desc"><strong>대표 품종:</strong> ' + grapesHtml + '</p>' : '') +
+        '  <p class="source-note">출처: ' + U.refsHtml(a) + '</p>' +
+        '</article>';
+    }
+
+    var aromaGroupsHtml = AROMA_GROUP_ORDER.map(function (groupId) {
+      var items = aromasData.filter(function (a) { return a.group === groupId; });
+      if (items.length === 0) return "";
+      return '<h3 class="aroma-group-title">' + U.escapeHtml(items[0].groupLabel) + '</h3>' +
+        '<div class="card-grid">' + items.map(aromaCardHtml).join("") + '</div>';
+    }).join("");
+
+    var aromaDictionaryHtml = '<h2 id="aroma-dictionary-section">향미(아로마) 사전</h2>' +
+      '<div class="notice-box">💡 여기 소개하는 향은 실제로 그 재료가 와인에 들어갔다는 뜻이 아니다. 포도 품종·발효·숙성 과정에서 자연적으로 생기는 화합물이 사람 코에는 익숙한 과일·꽃·향신료 냄새와 비슷하게 느껴지는 것뿐이며, 이런 "향의 연상 표현"으로 와인의 향을 설명하는 것이 업계의 관습이다.</div>' +
+      aromaGroupsHtml;
+
     var principlesHtml = '<h2>페어링 4원칙</h2><div class="card-grid">' + g.pairing.principles.map(function (p) {
       return '<article class="wine-card"><h3 class="card-title">' + U.escapeHtml(p.name) + '</h3><p class="card-desc">' + U.escapeHtml(p.description) + '</p></article>';
     }).join("") + '</div><p class="source-note">출처: ' + U.refsHtml({ source: g.pairing.principlesSource, refs: g.pairing.principlesRefs }) + '</p>';
@@ -377,7 +435,7 @@
       '  <div class="placeholder-card">' + U.escapeHtml(gaps.tastingAdvanced) + '</div>' +
       '</div>';
 
-    root.innerHTML = videoHtml + stepsHtml + axesHtml + principlesHtml + examplesHtml + prepHtml;
+    root.innerHTML = videoHtml + stepsHtml + axesHtml + bodySpectrumHtml + aromaDictionaryHtml + principlesHtml + examplesHtml + prepHtml;
   }
 
   /* =========================================================
@@ -517,6 +575,7 @@
         '  <p class="term-block"><strong>정의</strong> — ' + U.escapeHtml(t.definition) + '</p>' +
         '  <p class="term-block"><strong>비유</strong> — ' + U.escapeHtml(t.analogy) + '</p>' +
         '  <p class="term-block"><strong>실전 팁</strong> — ' + U.escapeHtml(t.tip) + '</p>' +
+        (t.relatedGuideAnchor ? '<p><a href="guide.html#' + t.relatedGuideAnchor + '">→ 테이스팅·페어링 페이지에서 자세히 보기</a></p>' : '') +
         '  <p class="source-note">출처: ' + U.escapeHtml(t.source) + '</p>' +
         '</article>';
     }

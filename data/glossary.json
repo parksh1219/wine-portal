@@ -15,7 +15,8 @@
     "definition": "입안에서 느껴지는 와인의 무게감. 물처럼 가벼운지 우유처럼 묵직한지의 정도.",
     "analogy": "저지방 우유(라이트바디)와 생크림(풀바디)의 질감 차이를 떠올리면 된다.",
     "tip": "알코올 도수가 높을수록(대략 13.5% 이상) 바디가 묵직해지는 경향이 있으니 라벨의 ABV를 힌트로 쓰자.",
-    "source": "_workspace/01_knowledge_tasting.md (Wine Folly)"
+    "source": "_workspace/01_knowledge_tasting.md (Wine Folly)",
+    "relatedGuideAnchor": "body-spectrum-section"
   },
   {
     "term": "산도",
@@ -51,7 +52,8 @@
     "definition": "와인에서 나는 향. 아로마는 포도 품종 자체의 과일·꽃 향(1차 향), 부케는 발효·숙성을 거치며 생기는 오크·가죽 같은 복합적인 향(2·3차 향)을 가리킨다.",
     "analogy": "아로마는 갓 딴 포도의 향, 부케는 오래 묵은 장을 열었을 때 나는 깊은 향이라고 보면 된다.",
     "tip": "잔을 가볍게 돌려(스월링) 향을 퍼뜨린 뒤 코를 가까이 대고 맡으면 훨씬 잘 느껴진다.",
-    "source": "_workspace/01_knowledge_tasting.md (Michelin Guide Korea)"
+    "source": "_workspace/01_knowledge_tasting.md (Michelin Guide Korea)",
+    "relatedGuideAnchor": "aroma-dictionary-section"
   },
   {
     "term": "미네랄리티",

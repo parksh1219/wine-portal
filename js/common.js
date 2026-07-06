@@ -261,5 +261,55 @@
       '</div>';
   };
 
+  // ===== 향(아로마)·바디 용어 링크화 =====
+  // text(원본 문자열) 안에서 dictEntries[].matches[]에 등록된 표현을 찾아
+  // guide.html의 사전 항목(#aroma-{id} / #body-{id})으로 가는 <a> 링크로 감싼다.
+  // 가장 긴 매칭을 우선하는 greedy longest-match, 좌→우 스캔 알고리즘.
+  // 매칭 실패 구간은 escapeHtml만 적용된 일반 텍스트로 남는다(구두점·수식어 등).
+  WineUtil.linkifyByDictionary = function (text, dictEntries, anchorPrefix, hrefBase) {
+    if (!text) return "";
+    var str = String(text);
+    var candidates = [];
+    (dictEntries || []).forEach(function (entry) {
+      (entry.matches || []).forEach(function (m) {
+        if (m) candidates.push({ text: m, id: entry.id });
+      });
+    });
+    // 긴 매칭 우선(내림차순 정렬) — "블랙체리"가 "체리"로 쪼개지지 않도록.
+    candidates.sort(function (a, b) { return b.text.length - a.text.length; });
+
+    var out = "";
+    var plainBuf = "";
+    var pos = 0;
+
+    function flushPlain() {
+      if (plainBuf) {
+        out += WineUtil.escapeHtml(plainBuf);
+        plainBuf = "";
+      }
+    }
+
+    while (pos < str.length) {
+      var found = null;
+      for (var i = 0; i < candidates.length; i++) {
+        if (str.startsWith(candidates[i].text, pos)) {
+          found = candidates[i];
+          break;
+        }
+      }
+      if (found) {
+        flushPlain();
+        out += '<a class="term-link" href="' + hrefBase + '#' + anchorPrefix + '-' + found.id + '">' +
+          WineUtil.escapeHtml(found.text) + '</a>';
+        pos += found.text.length;
+      } else {
+        plainBuf += str[pos];
+        pos += 1;
+      }
+    }
+    flushPlain();
+    return out;
+  };
+
   window.WineUtil = WineUtil;
 })();
