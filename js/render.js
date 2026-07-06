@@ -213,19 +213,29 @@
     }
 
     // 산지별 대표 생산자 섹션(_workspace/13_producers.md 기반, 02_build_spec.md §10).
-    // 상표 주의: 이름·특징(note)·출처 텍스트만 렌더링한다(로고·라벨·병 이미지 금지).
+    // 상표 주의: 생산자 로고·라벨·병 이미지는 직접 호스팅하지 않는다(상표 위험).
+    // 대신 위키백과 문서(사진·상세 포함)로 링크만 연계한다 — 안전하고 유지보수도 쉽다.
     function producersHtml(r) {
       if (!r.producers || !r.producers.length) return "";
       var noteHtml = r.producersNote
         ? '<div class="notice-box">' + U.escapeHtml(r.producersNote) + '</div>'
         : "";
       var itemsHtml = r.producers.map(function (p) {
-        var srcUrl = p.sourceUrl || U.wikiUrl(p.name);
+        // 사진·상세 링크: 출처가 위키백과면 그 문서로 바로(대표 사진 포함),
+        // 아니면 원어명으로 영문 위키백과 검색-바로가기(404 없이 사진 있는 문서로 이동).
+        var isWiki = /wikipedia\.org/.test(p.sourceUrl || "");
+        var photoUrl = isWiki
+          ? p.sourceUrl
+          : "https://en.wikipedia.org/w/index.php?search=" + encodeURIComponent(p.nameOrig || p.name);
+        var linksHtml = '<p class="producer-links">' +
+          U.extLink(photoUrl, '📷 위키백과에서 사진·상세 보기') +
+          (isWiki ? '' : ' · ' + U.extLink(p.sourceUrl, '출처: ' + p.source)) +
+          '</p>';
         return '' +
           '<li class="producer-item">' +
           '<strong>' + U.escapeHtml(p.name) + '</strong> <span class="producer-name-orig">(' + U.escapeHtml(p.nameOrig) + ')</span>' +
           '<p>' + U.escapeHtml(p.note) + '</p>' +
-          '<p class="source-note">' + U.extLink(srcUrl, '출처: ' + p.source) + '</p>' +
+          linksHtml +
           '</li>';
       }).join("");
       return '' +

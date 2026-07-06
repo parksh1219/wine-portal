@@ -505,6 +505,15 @@ details.expand-card summary {
   padding-top: 0;
 }
 
+.producer-links {
+  margin: 6px 0 0;
+  font-size: 0.82rem;
+}
+
+.producer-links .ext-link {
+  color: var(--color-burgundy);
+}
+
 /* ===== 스탯 카드 ===== */
 .stat-grid {
   display: grid;
