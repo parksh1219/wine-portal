@@ -212,6 +212,30 @@
       }).join(", ");
     }
 
+    // 산지별 대표 생산자 섹션(_workspace/13_producers.md 기반, 02_build_spec.md §10).
+    // 상표 주의: 이름·특징(note)·출처 텍스트만 렌더링한다(로고·라벨·병 이미지 금지).
+    function producersHtml(r) {
+      if (!r.producers || !r.producers.length) return "";
+      var noteHtml = r.producersNote
+        ? '<div class="notice-box">' + U.escapeHtml(r.producersNote) + '</div>'
+        : "";
+      var itemsHtml = r.producers.map(function (p) {
+        var srcUrl = p.sourceUrl || U.wikiUrl(p.name);
+        return '' +
+          '<li class="producer-item">' +
+          '<strong>' + U.escapeHtml(p.name) + '</strong> <span class="producer-name-orig">(' + U.escapeHtml(p.nameOrig) + ')</span>' +
+          '<p>' + U.escapeHtml(p.note) + '</p>' +
+          '<p class="source-note">' + U.extLink(srcUrl, '출처: ' + p.source) + '</p>' +
+          '</li>';
+      }).join("");
+      return '' +
+        '<div class="producers-section">' +
+        '  <h4>대표 생산자</h4>' +
+        noteHtml +
+        '  <ul class="producer-list">' + itemsHtml + '</ul>' +
+        '</div>';
+    }
+
     function showDetail(id) {
       var r = data.find(function (x) { return x.id === id; });
       if (!r || !detailMount) return;
@@ -226,6 +250,7 @@
         '  <p><strong>대표 품종:</strong> ' + grapesWithLinks(r.grapes) + '</p>' +
         '  <p>' + U.extLink(U.wikiUrl(r.name), '📖 위키백과에서 보기(사진·상세)') +
         ' · ' + U.extLink(U.mapUrl(r.nameEn, r.country), '🗺️ 지도에서 위치 보기') + '</p>' +
+        producersHtml(r) +
         '  <p class="source-note">출처: ' + U.refsHtml(r) + '</p>' +
         '</div>';
       detailMount.querySelector(".close-btn").addEventListener("click", function () { detailMount.innerHTML = ""; });

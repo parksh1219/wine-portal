@@ -455,6 +455,56 @@ details.expand-card summary {
   border-radius: var(--radius);
 }
 
+/* ===== 산지 상세 — 대표 생산자 (02_build_spec.md §10) ===== */
+.producers-section {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--color-border);
+}
+
+.producers-section h4 {
+  font-family: var(--font-serif, inherit);
+  color: var(--color-burgundy);
+  font-size: 1rem;
+  margin: 0 0 10px;
+}
+
+.producer-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.producer-item {
+  background: var(--color-ivory);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  padding: 10px 14px;
+}
+
+.producer-item strong {
+  color: var(--color-burgundy);
+}
+
+.producer-name-orig {
+  color: var(--color-gray);
+  font-size: 0.85rem;
+}
+
+.producer-item p {
+  margin: 4px 0 0;
+  font-size: 0.9rem;
+}
+
+.producer-item .source-note {
+  margin-top: 6px;
+  border-top: none;
+  padding-top: 0;
+}
+
 /* ===== 스탯 카드 ===== */
 .stat-grid {
   display: grid;

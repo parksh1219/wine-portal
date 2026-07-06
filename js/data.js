@@ -595,7 +595,44 @@ window.WINE_DATA = {
           "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vineyard_in_Bordeaux.jpg"
         }
-      }
+      },
+      "producers": [
+        {
+          "name": "샤토 라피트 로칠드",
+          "nameOrig": "Château Lafite Rothschild",
+          "note": "포이야크(Pauillac) 소재. 1855년 보르도 등급 분류 1등급(프리미에 크뤼) 5곳 중 하나이자 원년부터 1등급이었던 4곳 중 하나. 1868년 로칠드 가문이 인수.",
+          "source": "위키백과",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_Lafite_Rothschild"
+        },
+        {
+          "name": "샤토 마고",
+          "nameOrig": "Château Margaux",
+          "note": "마고(Margaux) 지역 소재. 1855년 분류 1등급(프리미에 크뤼) 5곳 중 하나.",
+          "source": "위키백과",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_Margaux"
+        },
+        {
+          "name": "샤토 라투르",
+          "nameOrig": "Château Latour",
+          "note": "포이야크 남동쪽 끝, 생줄리앙과의 경계·지롱드강 인근 소재. 1855년 분류 1등급.",
+          "source": "위키백과",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_Latour"
+        },
+        {
+          "name": "샤토 오브리옹",
+          "nameOrig": "Château Haut-Brion",
+          "note": "보르도 시 외곽 페삭(Pessac)·그라브(Graves) 지역 소재. 다른 4곳과 달리 메독이 아닌 그라브 북부에 위치한 것이 특징. 1855년 분류 1등급.",
+          "source": "위키백과",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_Haut-Brion"
+        },
+        {
+          "name": "샤토 무통 로칠드",
+          "nameOrig": "Château Mouton Rothschild",
+          "note": "포이야크 소재. 원래 2등급이었으나 소유주 필립 드 로칠드 남작의 오랜 로비 끝에 1973년 유일하게 1등급으로 승격.",
+          "source": "위키백과",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_Mouton_Rothschild"
+        }
+      ]
     },
     {
       "id": "bourgogne",
@@ -629,7 +666,30 @@ window.WINE_DATA = {
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vineyards_in_Burgundy_France.jpg"
         }
-      }
+      },
+      "producers": [
+        {
+          "name": "도멘 드 라 로마네콩티",
+          "nameOrig": "Domaine de la Romanée-Conti (DRC)",
+          "note": "세계에서 가장 유명한 와인 생산자 중 하나로 꼽히며, 로마네콩티·리쉬부르·라 타쉬 등 그랑 크뤼 밭에서 거의 전량을 생산. 그랑 크뤼 허용치보다 낮게 수확량을 제한하는 등 극히 낮은 생산량으로 유명.",
+          "source": "위키백과",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Domaine_de_la_Roman%C3%A9e-Conti"
+        },
+        {
+          "name": "도멘 르플레브",
+          "nameOrig": "Domaine Leflaive",
+          "note": "부르고뉴 최고의 화이트(샤르도네) 전문 도멘으로 꼽힘. 오직 샤르도네만 재배하며, 총 22헥타르 중 슈발리에 몽라셰·바타르 몽라셰 등 5헥타르가 그랑 크뤼. 위키백과 단독 문서 존재 여부는 이번 조사에서 확정하지 못함.",
+          "source": "Wine Spectator/Vinepair 계열 매체 종합",
+          "sourceUrl": "https://vinepair.com/articles/burgundy-producers-to-know/"
+        },
+        {
+          "name": "메종 루이 자도",
+          "nameOrig": "Maison Louis Jadot",
+          "note": "1859년 설립된 네고시앙(포도를 매입해 양조·판매)이자 재배자. 부르고뉴 전역의 아펠라시옹을 포괄해 접근성 높은 부르고뉴 와인의 대명사로 통함. 약 585에이커(약 237ha) 밭 보유. 위키백과 단독 문서 존재 여부는 이번 조사에서 확정하지 못함.",
+          "source": "Vinepair; Wine-Searcher",
+          "sourceUrl": "https://vinepair.com/articles/ntk-louis-jadot/"
+        }
+      ]
     },
     {
       "id": "tuscany",
@@ -658,7 +718,37 @@ window.WINE_DATA = {
           "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vineyard_in_Chianti_Tuscany.jpg"
         }
-      }
+      },
+      "producers": [
+        {
+          "name": "안티노리",
+          "nameOrig": "Marchesi Antinori",
+          "note": "피렌체 기반, 1385년까지 역사가 거슬러 올라가는 이탈리아 최대 와인 기업 중 하나. 1970년대 \"슈퍼 투스칸(Super Tuscan)\" 혁신을 이끈 주역.",
+          "source": "위키백과",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Antinori"
+        },
+        {
+          "name": "프레스코발디",
+          "nameOrig": "Marchesi de' Frescobaldi",
+          "note": "700년 역사의 유서 깊은 생산자로, 토스카나 전역에 광범위한 포도밭을 보유. 오르넬라이아·마세토를 소유.",
+          "source": "Wine Spectator",
+          "sourceUrl": "https://www.winespectator.com/articles/frescobaldi-takes-ownership-of-ornellaia-2479"
+        },
+        {
+          "name": "테누타 델 오르넬라이아",
+          "nameOrig": "Tenuta dell'Ornellaia",
+          "note": "안티노리 가문의 로도비코 안티노리 후작이 설립(1981년 식재, 1985년 첫 빈티지). 이탈리아를 대표하는 아이콘 와인 중 하나로 볼게리(Bolgheri) 지역 소재. 현재 프레스코발디 가문 소유.",
+          "source": "위키백과",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ornellaia"
+        },
+        {
+          "name": "비온디산티",
+          "nameOrig": "Biondi-Santi",
+          "note": "브루넬로 디 몬탈치노(Brunello di Montalcino)의 창시자 격 생산자로 꼽히는 유서 깊은 몬탈치노 명가.",
+          "source": "Decanter",
+          "sourceUrl": "https://www.decanter.com/premium/collectors-guide-tuscany-533032/"
+        }
+      ]
     },
     {
       "id": "piedmont",
@@ -689,7 +779,37 @@ window.WINE_DATA = {
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piedmont_vineyard_in_autumn.jpg"
         }
-      }
+      },
+      "producers": [
+        {
+          "name": "가야",
+          "nameOrig": "Gaja",
+          "note": "1859년 조반니 가야가 설립. 현 소유주 안젤로 가야는 \"바르바레스코의 제왕\"으로 불리며, 피에몬테 최초로 싱글 빈야드 와인을 생산하고 바리크 숙성을 도입하는 등 현대적 혁신을 이끈 인물로 평가받음.",
+          "source": "위키백과",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Gaja_(wine)"
+        },
+        {
+          "name": "비에티",
+          "nameOrig": "Vietti",
+          "note": "콘테르노·마스카렐로·가야와 함께 바롤로를 대표하는 벤치마크 생산자로 꼽힘. 전통과 현대 스타일을 접목한 바롤로·바르바레스코로 유명.",
+          "source": "Vinopolis Wine Shop",
+          "sourceUrl": "https://www.vinopoliswineshop.com/vietti-landmark-piedmont-producer-3-21-24/"
+        },
+        {
+          "name": "마르케시 디 바롤로",
+          "nameOrig": "Marchesi di Barolo",
+          "note": "19세기 초 줄리아 후작 부인과 남편 카를로 탄크레디가 네비올로로 최초의 바롤로 와인을 만든 곳 중 하나로 알려진 유서 깊은 랑게(Langhe) 지역 와이너리. 랑게·로에로·몬페라토에 걸쳐 200헥타르 이상의 포도밭 보유.",
+          "source": "Winetourism.com",
+          "sourceUrl": "https://www.winetourism.com/winery/marchesi-di-barolo/"
+        },
+        {
+          "name": "체레토",
+          "nameOrig": "Ceretto",
+          "note": "1937년 리카르도 체레토가 설립. 브루노·마르첼로 형제(\"바롤로 형제\")가 1960년대부터 짧은 마세라시온·발효 기간을 활용한 보다 현대적인 바롤로 스타일을 이끈 생산자 중 하나.",
+          "source": "The Grand Wine Tour",
+          "sourceUrl": "https://www.thegrandwinetour.com/en/wineries/piedmont/ceretto/"
+        }
+      ]
     },
     {
       "id": "rioja",
@@ -717,7 +837,30 @@ window.WINE_DATA = {
           "license": "Public domain",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rioja_vineyards.JPG"
         }
-      }
+      },
+      "producers": [
+        {
+          "name": "마르케스 데 리스칼",
+          "nameOrig": "Marqués de Riscal",
+          "note": "1858년 카밀로 우르타도 데 아메사가(6대 리스칼 후작)가 설립한 리오하 알라베사 지역 대형 와이너리. 1895년 보르도 국제박람회에서 프랑스산이 아닌 와인 최초로 명예 디플로마를 수상. 2006년 프랭크 게리 설계 건축물을 포함한 \"와인의 도시\" 복합단지 조성.",
+          "source": "위키백과",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Bodegas_Marqu%C3%A9s_de_Riscal"
+        },
+        {
+          "name": "라 리오하 알타",
+          "nameOrig": "La Rioja Alta",
+          "note": "1890년 리오하와 바스크 지방의 다섯 포도 재배 가문이 설립, 지금도 같은 다섯 가문이 소유·운영.",
+          "source": "JancisRobinson.com",
+          "sourceUrl": "https://www.jancisrobinson.com/learn/wine-regions/spain/spain/rioja"
+        },
+        {
+          "name": "CVNE",
+          "nameOrig": "Compañía Vinícola del Norte de España",
+          "note": "1879년 빌바오 출신 형제와 양조가가 아로(Haro) 기차역 지구에 설립. 현재 5대째 가족 경영 중이며, 임페리얼 그란 레세르바 2013이 Wine Spectator \"올해의 와인\"으로 선정된 스페인 최초 와인.",
+          "source": "위키백과",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Compa%C3%B1%C3%ADa_Vin%C3%ADcola_del_Norte_de_Espa%C3%B1a"
+        }
+      ]
     },
     {
       "id": "mosel",
@@ -746,7 +889,30 @@ window.WINE_DATA = {
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:080110_zell_mosel.JPG"
         }
-      }
+      },
+      "producers": [
+        {
+          "name": "요한 요셉 프룸",
+          "nameOrig": "Weingut Joh. Jos. Prüm",
+          "note": "베른카스텔-벨렌(Bernkastel-Wehlen) 소재. 1911년 요한 요제프 프룸이 S.A. Prüm 가문 와이너리 분할 후 설립. 벨레너 존넨우어·그라허 힘멜라이히 등 명성 있는 밭 14헥타르 보유.",
+          "source": "위키백과",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Weingut_Joh._Jos._Pr%C3%BCm"
+        },
+        {
+          "name": "에곤 뮐러",
+          "nameOrig": "Egon Müller",
+          "note": "1797년부터 이어진 독일 최고(最古) 와이너리 중 하나(현재 6대손 경영). 자르(Saar) 지역 샤르츠호프베르크(Scharzhofberg) 밭이 특히 유명하며, 모젤 전체에서 가장 명성 높은 생산자로 평가받고 세계에서 가장 비싼 와인 중 하나로 자주 꼽힘.",
+          "source": "Wine Scholar Guild 계열 자료 종합",
+          "sourceUrl": "https://www.winescholarguild.com/producer-guide/germany/mosel"
+        },
+        {
+          "name": "닥터 루젠",
+          "nameOrig": "Weingut Dr. Loosen",
+          "note": "모젤 지역 최대 규모급 생산자 중 하나. 1988년부터 에른스트 루젠이 경영하며 고품질 리슬링으로 유명.",
+          "source": "Wine Enthusiast 계열 자료 종합",
+          "sourceUrl": "https://www.wineenthusiast.com/basics/best-german-wine-mosel-guide/"
+        }
+      ]
     },
     {
       "id": "napa-valley",
@@ -780,7 +946,37 @@ window.WINE_DATA = {
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vineyard_in_Napa_Valley_(01934).jpg"
         }
-      }
+      },
+      "producers": [
+        {
+          "name": "로버트 몬다비 와이너리",
+          "nameOrig": "Robert Mondavi Winery",
+          "note": "1966년 로버트 몬다비가 설립, 1930년대 이후 나파밸리에 세워진 첫 대형 와이너리. 나파 와인을 세계에 알린 상징적 인물의 와이너리.",
+          "source": "위키백과",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Robert_Mondavi"
+        },
+        {
+          "name": "오퍼스 원",
+          "nameOrig": "Opus One",
+          "note": "1979년 로버트 몬다비와 보르도 샤토 무통 로칠드의 필립 드 로칠드 남작이 손잡고 설립한 합작 와이너리. 오크빌(Oakville) 소재. 보르도 스타일 블렌드를 표방한 아이콘 와인.",
+          "source": "위키백과",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Opus_One_Winery"
+        },
+        {
+          "name": "스크리밍 이글",
+          "nameOrig": "Screaming Eagle",
+          "note": "1986년 진 필립스가 오크빌의 23헥타르(57에이커) 포도밭을 매입해 설립. 1992년 빈티지가 로버트 파커 99점을 받는 등 극소량 생산·고평가로 나파밸리 \"컬트 와인\"의 대표주자.",
+          "source": "위키백과",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Screaming_Eagle_Winery_and_Vineyards"
+        },
+        {
+          "name": "스택스 립 와인 셀러스",
+          "nameOrig": "Stag's Leap Wine Cellars",
+          "note": "1970년 워런 위니아스키가 설립, 스택스 립 디스트릭트(Stags Leap District) 소재. 1976년 \"파리의 심판\" 블라인드 테이스팅에서 1973년 빈티지 카베르네 소비뇽이 프랑스 명문 와인들을 제치고 1위를 차지한 역사적 사건의 주인공.",
+          "source": "위키백과",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Stag%27s_Leap_Wine_Cellars"
+        }
+      ]
     },
     {
       "id": "central-valley-chile",
@@ -811,7 +1007,31 @@ window.WINE_DATA = {
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chilean_vineyard_in_Andes_foothills.jpg"
         }
-      }
+      },
+      "producersNote": "칠레 센트럴밸리는 마이포·라펠·쿠리코·마울레 등 세부 밸리를 포괄하는 광역 산지로, 아래 3곳은 이 광역 산지 전반(특히 마이포 밸리 인근)에서 칠레 와인 산업 초기부터 활동해 온 대표 생산자다. 세부 밸리별 생산자 구분까지는 추가 조사가 필요하다(조사 공백 — _workspace/13_producers.md).",
+      "producers": [
+        {
+          "name": "콘차 이 토로",
+          "nameOrig": "Concha y Toro",
+          "note": "1883년 멜초르 콘차 이 토로가 설립. 라틴아메리카 최대 와인 생산·수출 기업이자 세계 10대 와인 기업 중 하나(2014년 기준 연간 3,300만 케이스 이상 판매, 135개국 유통). 카시예로 델 디아블로·돈 멜초르가 대표 브랜드.",
+          "source": "위키백과",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Concha_y_Toro"
+        },
+        {
+          "name": "산타 리타",
+          "nameOrig": "Santa Rita",
+          "note": "콘차 이 토로·코시뇨 마쿨과 함께 칠레에 프랑스 포도 품종을 도입한 초기 생산자 중 하나. 현재 칠레 전역 5개 와이너리에서 총 약 9,000만 리터 생산·저장 능력 보유.",
+          "source": "종합(Chilean-wine.com 등)",
+          "sourceUrl": "https://www.chilean-wine.com/chilean-wine-producers/"
+        },
+        {
+          "name": "코시뇨 마쿨",
+          "nameOrig": "Cousiño Macul",
+          "note": "1856년 설립, 지금도 설립자 마티아스 코시뇨의 직계 후손이 소유·운영하는 칠레 최고(最古) 와이너리 중 하나. 역사적인 지하 저장고와 고품질 카베르네 소비뇽으로 유명.",
+          "source": "종합(Chilean-wine.com, TripAdvisor 등)",
+          "sourceUrl": "https://www.chilean-wine.com/chilean-wine-producers/"
+        }
+      ]
     },
     {
       "id": "barossa-valley",
@@ -840,7 +1060,30 @@ window.WINE_DATA = {
           "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tanunda.jpg"
         }
-      }
+      },
+      "producers": [
+        {
+          "name": "펜폴즈",
+          "nameOrig": "Penfolds",
+          "note": "1844년 크리스토퍼 펜폴드·메리 펜폴드 부부가 애들레이드에 설립한 호주 최고(最古) 와이너리 중 하나. 대표 와인 \"그레인지(Grange)\"는 바로사밸리를 포함한 여러 산지의 포도를 블렌딩. 현재 트레저리 와인 에스테이트 소속.",
+          "source": "위키백과",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Penfolds"
+        },
+        {
+          "name": "얄룸바",
+          "nameOrig": "Yalumba",
+          "note": "1849년 새뮤얼 스미스(영국 출신 양조업자)가 바로사밸리 앙가스톤(Angaston) 인근에 설립. 호주에서 가장 오래된 가족 소유 와이너리로 꼽히며, 2022년 기준 호주 와인 기업 중 생산량 12위·매출 9위.",
+          "source": "위키백과",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Yalumba"
+        },
+        {
+          "name": "헨슈케",
+          "nameOrig": "Henschke",
+          "note": "1862년 요한 크리스티안 헨슈케(실레지아 출신 이민자)가 키네턴(Keyneton)에 설립. 158년 역사의 가족 경영 와이너리로, 아이콘 와인 \"힐 오브 그레이스(Hill of Grace)\"로 유명. 단, 힐 오브 그레이스는 바로사 존(Barossa Zone) 내 에덴밸리(Eden Valley) 소재로, 좁은 의미의 \"바로사밸리\" GI와는 인접한 별개 하위 산지다(조사 공백 참고).",
+          "source": "위키백과",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Henschke"
+        }
+      ]
     },
     {
       "id": "marlborough",
@@ -868,7 +1111,30 @@ window.WINE_DATA = {
           "license": "Public domain",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_vineyards_of_Marlborough,_New_Zealand;_May_2014.jpg"
         }
-      }
+      },
+      "producers": [
+        {
+          "name": "클라우디 베이",
+          "nameOrig": "Cloudy Bay",
+          "note": "1985년 설립, 말버러에서 가장 이른 시기에 세워진 와이너리 중 하나. 1980년대 첫 소비뇽 블랑으로 국제적 명성을 얻으며 뉴질랜드 화이트 와인의 국제적 위상을 세우는 데 결정적 역할. 2003년 뵈브 클리코가 인수, 현재 LVMH 브랜드.",
+          "source": "위키백과",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Cloudy_Bay"
+        },
+        {
+          "name": "브랜콧 에스테이트",
+          "nameOrig": "Brancott Estate (옛 몬타나 와인스)",
+          "note": "1973년 브랜콧 지역에 말버러 최초의 상업용 포도나무를 식재했고, 1979년 말버러 최초의 소비뇽 블랑을 출시. 현재 페르노리카(Pernod Ricard) 소유.",
+          "source": "종합(WineWithSeth 등)",
+          "sourceUrl": "https://www.winewithseth.com/winewiki/marlborough-gi-south-island-top-of-south-island-wairau-awatere-valleys/"
+        },
+        {
+          "name": "빌라 마리아",
+          "nameOrig": "Villa Maria",
+          "note": "1961년 조지 피스토니치 경이 오클랜드 망게레(Mangere)에서 설립한 뉴질랜드 3위 규모 와인 기업. 생산 기반은 기스본·호크스베이·말버러·오클랜드에 걸쳐 있어 말버러 전용 생산자는 아니지만(조사 공백 참고), 말버러 소비뇽 블랑의 주요 생산자로 꼽힌다. 2021년 인데빈(Indevin)에 인수.",
+          "source": "위키백과",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Villa_Maria_Estates"
+        }
+      ]
     },
     {
       "id": "mendoza",
@@ -899,7 +1165,30 @@ window.WINE_DATA = {
           "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vineyard_in_Mendoza,_Argentina.jpg"
         }
-      }
+      },
+      "producers": [
+        {
+          "name": "보데가 카테나 사파타",
+          "nameOrig": "Bodega Catena Zapata",
+          "note": "1902년 이탈리아 이민자 니콜라 카테나가 설립, 아들 도밍고 카테나를 거쳐 이어진 가족 경영 와이너리(멘도사 루한 데 쿠요·아그렐로 소재). 고지대 포도밭과 혁신적 재배 기법으로 말벡의 현대적 부흥을 이끈 선구자로 평가받음.",
+          "source": "위키백과",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Bodega_Catena_Zapata"
+        },
+        {
+          "name": "보데가 노르톤",
+          "nameOrig": "Bodega Norton",
+          "note": "1895년 설립. 멘도사 테루아를 반영한 말벡 와인(레세르바·프리바다 등)으로 유명.",
+          "source": "종합(Wine-Searcher 계열)",
+          "sourceUrl": "https://www.wine-searcher.com/region-grape-mendoza-malbec"
+        },
+        {
+          "name": "트라피체",
+          "nameOrig": "Trapiche",
+          "note": "아르헨티나 최대·최고(最古) 와이너리 중 하나. 저가형 오크 캐스크 시리즈부터 고급 테루아 시리즈까지 폭넓은 말벡 라인업 보유.",
+          "source": "종합(Wine-Searcher 계열)",
+          "sourceUrl": "https://www.wine-searcher.com/region-grape-mendoza-malbec"
+        }
+      ]
     }
   ],
 
