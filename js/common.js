@@ -311,5 +311,50 @@
     return out;
   };
 
+  // ===== 품종·산지 이미지 경로 & 크레딧(법적 표기) =====
+  // image.src는 site/ 루트 기준 상대경로(예: "images/grapes/xxx.jpg")로 저장돼 있다.
+  // pages/ 아래(grapes.html, regions.html 등)에서는 "../" 접두가 필요하고,
+  // site/index.html(루트)에서는 접두 없이 그대로 사용한다.
+  WineUtil._inPagesDir = function () {
+    return window.location.pathname.replace(/\\/g, "/").indexOf("/pages/") !== -1;
+  };
+
+  WineUtil.imgSrc = function (path) {
+    if (!path) return path;
+    return WineUtil._inPagesDir() ? "../" + path : path;
+  };
+
+  // 크레딧 캡션: 📷 저작자 · 라이선스 · 출처 — 저작권 표기 의무이므로 항상 렌더링한다(숨김 금지).
+  // compact:true면 카드 썸네일용 축약 캡션("📷 출처" 링크만)을 반환한다.
+  WineUtil.imageCreditHtml = function (credit, opts) {
+    if (!credit) return "";
+    opts = opts || {};
+    var sourcePart = credit.sourceUrl
+      ? '<a href="' + WineUtil.escapeHtml(credit.sourceUrl) + '" target="_blank" rel="noopener noreferrer">출처</a>'
+      : "출처";
+    if (opts.compact) {
+      return '<p class="image-credit image-credit-compact">📷 ' + sourcePart + '</p>';
+    }
+    var licensePart = credit.licenseUrl
+      ? '<a href="' + WineUtil.escapeHtml(credit.licenseUrl) + '" target="_blank" rel="noopener noreferrer">' + WineUtil.escapeHtml(credit.license) + '</a>'
+      : WineUtil.escapeHtml(credit.license || "");
+    return '<p class="image-credit">📷 ' + WineUtil.escapeHtml(credit.author || "") + ' · ' + licensePart + ' · ' + sourcePart + '</p>';
+  };
+
+  // 품종·산지 카드/상세 공통: image가 있으면 사진+크레딧, 없으면 기존 SVG 폴백(양자택일).
+  // opts.detail=true면 상세 패널용(큰 이미지 + 전체 캡션), 기본은 카드 그리드용(썸네일 + 축약 캡션).
+  WineUtil.mediaHtml = function (image, fallbackSvgHtml, opts) {
+    opts = opts || {};
+    if (image && image.src) {
+      var sizeClass = opts.detail ? "card-photo-detail" : "card-photo";
+      return '' +
+        '<div class="' + sizeClass + '-wrap">' +
+        '  <img class="' + sizeClass + '" src="' + WineUtil.escapeHtml(WineUtil.imgSrc(image.src)) + '" alt="' + WineUtil.escapeHtml(image.alt || "") + '" loading="lazy">' +
+        '</div>' +
+        WineUtil.imageCreditHtml(image.credit, opts.detail ? {} : { compact: true });
+    }
+    return '<div class="card-media">' + fallbackSvgHtml + '</div>';
+  };
+
   window.WineUtil = WineUtil;
 })();

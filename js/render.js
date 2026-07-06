@@ -36,8 +36,15 @@
     }
     var idx = U.dayOfYearIndex(reviews.length);
     var item = reviews[idx];
+    // 오늘의 와인은 grape 텍스트를 GRAPES_DATA와 느슨하게 매칭해 이미지를 재사용한다(선택 사항).
+    // 매칭 실패 시(또는 image 필드 없음) 기존처럼 이미지 없이 렌더링한다.
+    var matchedGrapeId = findGrapeIdByText(item.grape);
+    var grapesData = (window.WINE_DATA && window.WINE_DATA.grapes) || [];
+    var matchedGrape = matchedGrapeId ? grapesData.find(function (x) { return x.id === matchedGrapeId; }) : null;
+    var mediaBlock = (matchedGrape && matchedGrape.image) ? U.mediaHtml(matchedGrape.image, "") : "";
     mount.innerHTML =
       '<div class="wine-card" style="max-width:480px;">' +
+      mediaBlock +
       '  <div class="card-top">' +
       '    <span class="badge ' + U.typeBadgeClass(item.type) + '">' + U.typeLabel(item.type) + '</span>' +
       '    <span class="badge ' + U.priceTierBadgeClass(item.priceTier) + '">' + U.priceTierLabel(item.priceTier) + '</span>' +
@@ -77,7 +84,7 @@
       }).join(", ");
       return '' +
         '<article class="wine-card" id="grape-' + g.id + '" data-id="' + g.id + '" tabindex="0" role="button" aria-expanded="false">' +
-        '  <div class="card-media">' + U.wineGlassSvg(g.color) + '</div>' +
+        U.mediaHtml(g.image, U.wineGlassSvg(g.color)) +
         '  <div class="card-top">' +
         '    <span class="badge ' + U.typeBadgeClass(g.color) + '">' + (g.color === "red" ? "레드" : "화이트") + '</span>' +
         '  </div>' +
@@ -110,6 +117,7 @@
       detailMount.innerHTML =
         '<div class="detail-panel">' +
         '  <button class="close-btn" type="button" aria-label="닫기">✕</button>' +
+        U.mediaHtml(g.image, U.wineGlassSvg(g.color), { detail: true }) +
         '  <span class="badge ' + U.typeBadgeClass(g.color) + '">' + (g.color === "red" ? "레드" : "화이트") + '</span>' +
         '  <h2>' + U.escapeHtml(g.name) + ' <span class="text-muted" style="font-size:1rem;">(' + U.escapeHtml(g.nameEn) + ')</span></h2>' +
         '  <p><strong>바디:</strong> ' + U.linkifyByDictionary(g.body, window.WINE_DATA.body.levels, "body", "guide.html") + '</p>' +
@@ -177,6 +185,7 @@
       var preview = r.grapes.slice(0, 3).join(", ");
       return '' +
         '<article class="wine-card" id="region-' + r.id + '" data-id="' + r.id + '" tabindex="0" role="button">' +
+        U.mediaHtml(r.image, U.wineGlassSvg("other")) +
         '  <div class="card-top">' +
         '    <span class="badge ' + U.worldBadgeClass(r.world) + '">' + U.worldLabel(r.world) + '</span>' +
         '  </div>' +
@@ -209,6 +218,7 @@
       detailMount.innerHTML =
         '<div class="detail-panel">' +
         '  <button class="close-btn" type="button" aria-label="닫기">✕</button>' +
+        U.mediaHtml(r.image, U.wineGlassSvg("other"), { detail: true }) +
         '  <span class="badge ' + U.worldBadgeClass(r.world) + '">' + U.worldLabel(r.world) + '</span>' +
         '  <h2>' + U.escapeHtml(r.name) + ' <span class="text-muted" style="font-size:1rem;">(' + U.escapeHtml(r.nameEn) + ', ' + U.escapeHtml(r.country) + ')</span></h2>' +
         '  <p><strong>기후·테루아:</strong> ' + U.escapeHtml(r.climate) + '</p>' +

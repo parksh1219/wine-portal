@@ -37,7 +37,17 @@ window.WINE_DATA = {
           "label": "프랑스 레드 와인 정리(mojji.bravohsc.com)",
           "url": "https://mojji.bravohsc.com/entry/프랑스-레드-와인-까베르네-소비뇽-피노누아-메를로-시라-포도-품종-정리"
         }
-      ]
+      ],
+      "image": {
+        "src": "images/grapes/cabernet-sauvignon.jpg",
+        "alt": "카베르네 소비뇽 포도송이",
+        "credit": {
+          "author": "Agne27 at English Wikipedia",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red_Mountain_Cabernet_Sauvignon_grapes_from_Hedge_Vineyards.jpg"
+        }
+      }
     },
     {
       "id": "merlot",
@@ -67,7 +77,17 @@ window.WINE_DATA = {
           "label": "Wine Folly, Defining Medium-Bodied Red Wines",
           "url": "https://winefolly.com/deep-dive/medium-bodied-red-wines/"
         }
-      ]
+      ],
+      "image": {
+        "src": "images/grapes/merlot.jpg",
+        "alt": "메를로 포도송이",
+        "credit": {
+          "author": "Felloni claire",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Merlot.jpg"
+        }
+      }
     },
     {
       "id": "pinot-noir",
@@ -97,7 +117,16 @@ window.WINE_DATA = {
           "label": "Bernard Marr's Wine Guide, Burgundy",
           "url": "https://bmwineguide.co.uk/in-introduction-to-the-worlds-most-important-wine-regions/"
         }
-      ]
+      ],
+      "image": {
+        "src": "images/grapes/pinot-noir.jpg",
+        "alt": "피노 누아 포도송이",
+        "credit": {
+          "author": "Cjp24",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grape_near_Sancerre.jpg"
+        }
+      }
     },
     {
       "id": "syrah-shiraz",
@@ -126,7 +155,16 @@ window.WINE_DATA = {
           "label": "Global Wine Authority, New World Wine Regions",
           "url": "https://globalwineauthority.com/new-world-wine-regions/"
         }
-      ]
+      ],
+      "image": {
+        "src": "images/grapes/syrah-shiraz.jpg",
+        "alt": "시라 / 쉬라즈 포도송이",
+        "credit": {
+          "author": "JPS68 via photoshop",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Syrah.jpg"
+        }
+      }
     },
     {
       "id": "sangiovese",
@@ -154,7 +192,17 @@ window.WINE_DATA = {
           "label": "와인 노트(conginfo.com)",
           "url": "https://conginfo.com/entry/레드-와인-포도-품종-느낌으로-쉽게-알아보기"
         }
-      ]
+      ],
+      "image": {
+        "src": "images/grapes/sangiovese.jpg",
+        "alt": "산지오베제 포도송이",
+        "credit": {
+          "author": "Francesco Sgroi . Francesco Sgroi",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sangiovese_close_up_crop.jpg"
+        }
+      }
     },
     {
       "id": "tempranillo",
@@ -183,7 +231,16 @@ window.WINE_DATA = {
           "label": "viavinumwinetours, Wine Region Maps",
           "url": "https://viavinumwinetours.com/en/wine-region-maps/"
         }
-      ]
+      ],
+      "image": {
+        "src": "images/grapes/tempranillo.jpg",
+        "alt": "템프라니요 포도송이",
+        "credit": {
+          "author": "Viala et Vermorel",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tempranillo_Viala_et_Vermorel.jpg"
+        }
+      }
     },
     {
       "id": "malbec",
@@ -212,7 +269,17 @@ window.WINE_DATA = {
           "label": "와인 노트(conginfo.com)",
           "url": "https://conginfo.com/entry/레드-와인-포도-품종-느낌으로-쉽게-알아보기"
         }
-      ]
+      ],
+      "image": {
+        "src": "images/grapes/malbec.jpg",
+        "alt": "말벡 포도송이",
+        "credit": {
+          "author": "Ian L",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Malbec_grapes.jpg"
+        }
+      }
     },
     {
       "id": "nebbiolo",
@@ -241,7 +308,17 @@ window.WINE_DATA = {
           "label": "oboe.com, Old World Wine Regions",
           "url": "https://oboe.com/learn/mastering-wset-level-3-wine-knowledge-gzqzry/old-world-wine-regions-2"
         }
-      ]
+      ],
+      "image": {
+        "src": "images/grapes/nebbiolo.jpg",
+        "alt": "네비올로 포도송이",
+        "credit": {
+          "author": "Hanna",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Close_up_of_Nebbiolo_cluster_in_Italy.jpg"
+        }
+      }
     },
     {
       "id": "chardonnay",
@@ -271,7 +348,16 @@ window.WINE_DATA = {
           "label": "Amsterdam Wine Academy",
           "url": "https://amsterdamwineacademy.com/en/top-10-white-grape-varieties-and-their-flavor-profiles/"
         }
-      ]
+      ],
+      "image": {
+        "src": "images/grapes/chardonnay.jpg",
+        "alt": "샤르도네 포도송이",
+        "credit": {
+          "author": "Jenavive at English Wikipedia",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chardonnay.jpg"
+        }
+      }
     },
     {
       "id": "sauvignon-blanc",
@@ -302,7 +388,17 @@ window.WINE_DATA = {
           "label": "Global Wine Authority",
           "url": "https://globalwineauthority.com/new-world-wine-regions/"
         }
-      ]
+      ],
+      "image": {
+        "src": "images/grapes/sauvignon-blanc.jpg",
+        "alt": "소비뇽 블랑 포도송이",
+        "credit": {
+          "author": "Nathan",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sauvignon_blanc_grapes.jpg"
+        }
+      }
     },
     {
       "id": "riesling",
@@ -333,7 +429,17 @@ window.WINE_DATA = {
           "label": "oboe.com, Old World Wine Regions",
           "url": "https://oboe.com/learn/mastering-wset-level-3-wine-knowledge-gzqzry/old-world-wine-regions-2"
         }
-      ]
+      ],
+      "image": {
+        "src": "images/grapes/riesling.jpg",
+        "alt": "리슬링 포도송이",
+        "credit": {
+          "author": "No machine-readable author provided. T.o.m.~commonswiki assumed (based on copyright claims).",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Riesling_grapes_leaves.jpg"
+        }
+      }
     },
     {
       "id": "pinot-grigio",
@@ -364,7 +470,17 @@ window.WINE_DATA = {
           "label": "Coravin",
           "url": "https://www.coravin.com/blogs/community/how-does-pinot-grigio-taste"
         }
-      ]
+      ],
+      "image": {
+        "src": "images/grapes/pinot-grigio.jpg",
+        "alt": "피노 그리지오 / 피노 그리 포도송이",
+        "credit": {
+          "author": "Ermell",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pinot_Grigio-20201027-RM-114053.jpg"
+        }
+      }
     },
     {
       "id": "gewurztraminer",
@@ -391,7 +507,16 @@ window.WINE_DATA = {
           "label": "Wine Folly, The Comprehensive Guide to Gewürztraminer",
           "url": "https://winefolly.com/grapes/gewurztraminer/"
         }
-      ]
+      ],
+      "image": {
+        "src": "images/grapes/gewurztraminer.jpg",
+        "alt": "게뷔르츠트라미너 포도송이",
+        "credit": {
+          "author": "Viala et Vermorel",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gew%C3%BCrztramine_Viala_et_Vermorelr.jpg"
+        }
+      }
     },
     {
       "id": "moscato",
@@ -420,7 +545,17 @@ window.WINE_DATA = {
           "label": "Amsterdam Wine Academy",
           "url": "https://amsterdamwineacademy.com/en/top-10-white-grape-varieties-and-their-flavor-profiles/"
         }
-      ]
+      ],
+      "image": {
+        "src": "images/grapes/moscato.jpg",
+        "alt": "모스카토 포도송이",
+        "credit": {
+          "author": "Jean-Marc Rosier http://www.cjrosier.com + http://www.gordes-immobilier.com)",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Muscat_blanc_et_Muscat_noir_by_JM_Rosier.jpg"
+        }
+      }
     }
   ],
 
@@ -450,7 +585,17 @@ window.WINE_DATA = {
           "label": "oboe.com, Old World Wine Regions",
           "url": "https://oboe.com/learn/mastering-wset-level-3-wine-knowledge-gzqzry/old-world-wine-regions-2"
         }
-      ]
+      ],
+      "image": {
+        "src": "images/regions/bordeaux.jpg",
+        "alt": "보르도 포도밭 풍경",
+        "credit": {
+          "author": "davitydave",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vineyard_in_Bordeaux.jpg"
+        }
+      }
     },
     {
       "id": "bourgogne",
@@ -474,7 +619,17 @@ window.WINE_DATA = {
           "label": "oboe.com, Old World Wine Regions",
           "url": "https://oboe.com/learn/mastering-wset-level-3-wine-knowledge-gzqzry/old-world-wine-regions-2"
         }
-      ]
+      ],
+      "image": {
+        "src": "images/regions/bourgogne.jpg",
+        "alt": "부르고뉴 포도밭 풍경",
+        "credit": {
+          "author": "FrogsLegs71",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vineyards_in_Burgundy_France.jpg"
+        }
+      }
     },
     {
       "id": "tuscany",
@@ -493,7 +648,17 @@ window.WINE_DATA = {
           "label": "Hospitality.Institute, Old World Wines",
           "url": "https://hospitality.institute/bha203/old-world-wines-europe-journey/"
         }
-      ]
+      ],
+      "image": {
+        "src": "images/regions/tuscany.jpg",
+        "alt": "토스카나 키안티 포도밭 풍경",
+        "credit": {
+          "author": "Jason Parrish",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vineyard_in_Chianti_Tuscany.jpg"
+        }
+      }
     },
     {
       "id": "piedmont",
@@ -514,7 +679,17 @@ window.WINE_DATA = {
           "label": "Vinodivino, What Is An Old World Wine",
           "url": "https://vinodivino.com/blogs/blog/what-is-an-old-world-wine"
         }
-      ]
+      ],
+      "image": {
+        "src": "images/regions/piedmont.jpg",
+        "alt": "피에몬테 포도밭 풍경",
+        "credit": {
+          "author": "Giorgio Montersino",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piedmont_vineyard_in_autumn.jpg"
+        }
+      }
     },
     {
       "id": "rioja",
@@ -533,7 +708,16 @@ window.WINE_DATA = {
           "label": "viavinumwinetours, Wine Region Maps",
           "url": "https://viavinumwinetours.com/en/wine-region-maps/"
         }
-      ]
+      ],
+      "image": {
+        "src": "images/regions/rioja.jpg",
+        "alt": "리오하 포도밭 풍경",
+        "credit": {
+          "author": "Ken Case",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rioja_vineyards.JPG"
+        }
+      }
     },
     {
       "id": "mosel",
@@ -552,7 +736,17 @@ window.WINE_DATA = {
           "label": "oboe.com, Old World Wine Regions",
           "url": "https://oboe.com/learn/mastering-wset-level-3-wine-knowledge-gzqzry/old-world-wine-regions-2"
         }
-      ]
+      ],
+      "image": {
+        "src": "images/regions/mosel.jpg",
+        "alt": "모젤 포도밭 풍경",
+        "credit": {
+          "author": "Friedrich Petersdorff",
+          "license": "CC BY-SA 2.0 de",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:080110_zell_mosel.JPG"
+        }
+      }
     },
     {
       "id": "napa-valley",
@@ -576,7 +770,17 @@ window.WINE_DATA = {
           "label": "California Winery Advisor",
           "url": "https://californiawineryadvisor.com/new-world-wine-regions/"
         }
-      ]
+      ],
+      "image": {
+        "src": "images/regions/napa-valley.jpg",
+        "alt": "나파밸리 포도밭 풍경",
+        "credit": {
+          "author": "Rhododendrites",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vineyard_in_Napa_Valley_(01934).jpg"
+        }
+      }
     },
     {
       "id": "central-valley-chile",
@@ -597,7 +801,17 @@ window.WINE_DATA = {
           "label": "Global Wine Authority, New World Wine Regions",
           "url": "https://globalwineauthority.com/new-world-wine-regions/"
         }
-      ]
+      ],
+      "image": {
+        "src": "images/regions/central-valley-chile.jpg",
+        "alt": "센트럴밸리(칠레) 포도밭 풍경",
+        "credit": {
+          "author": "Beatrice Murch",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chilean_vineyard_in_Andes_foothills.jpg"
+        }
+      }
     },
     {
       "id": "barossa-valley",
@@ -616,7 +830,17 @@ window.WINE_DATA = {
           "label": "Global Wine Authority, New World Wine Regions",
           "url": "https://globalwineauthority.com/new-world-wine-regions/"
         }
-      ]
+      ],
+      "image": {
+        "src": "images/regions/barossa-valley.jpg",
+        "alt": "바로사밸리 포도밭 풍경",
+        "credit": {
+          "author": "No machine-readable author provided. ScottDavis assumed (based on copyright claims).",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tanunda.jpg"
+        }
+      }
     },
     {
       "id": "marlborough",
@@ -635,7 +859,16 @@ window.WINE_DATA = {
           "label": "Global Wine Authority, New World Wine Regions",
           "url": "https://globalwineauthority.com/new-world-wine-regions/"
         }
-      ]
+      ],
+      "image": {
+        "src": "images/regions/marlborough.jpg",
+        "alt": "말버러 포도밭 풍경",
+        "credit": {
+          "author": "Bernard Spragg",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_vineyards_of_Marlborough,_New_Zealand;_May_2014.jpg"
+        }
+      }
     },
     {
       "id": "mendoza",
@@ -656,7 +889,17 @@ window.WINE_DATA = {
           "label": "Global Wine Authority, New World Wine Regions",
           "url": "https://globalwineauthority.com/new-world-wine-regions/"
         }
-      ]
+      ],
+      "image": {
+        "src": "images/regions/mendoza.jpg",
+        "alt": "멘도사 포도밭 풍경",
+        "credit": {
+          "author": "David",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vineyard_in_Mendoza,_Argentina.jpg"
+        }
+      }
     }
   ],
 

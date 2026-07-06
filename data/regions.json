@@ -23,7 +23,17 @@
         "label": "oboe.com, Old World Wine Regions",
         "url": "https://oboe.com/learn/mastering-wset-level-3-wine-knowledge-gzqzry/old-world-wine-regions-2"
       }
-    ]
+    ],
+    "image": {
+      "src": "images/regions/bordeaux.jpg",
+      "alt": "보르도 포도밭 풍경",
+      "credit": {
+        "author": "davitydave",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vineyard_in_Bordeaux.jpg"
+      }
+    }
   },
   {
     "id": "bourgogne",
@@ -47,7 +57,17 @@
         "label": "oboe.com, Old World Wine Regions",
         "url": "https://oboe.com/learn/mastering-wset-level-3-wine-knowledge-gzqzry/old-world-wine-regions-2"
       }
-    ]
+    ],
+    "image": {
+      "src": "images/regions/bourgogne.jpg",
+      "alt": "부르고뉴 포도밭 풍경",
+      "credit": {
+        "author": "FrogsLegs71",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vineyards_in_Burgundy_France.jpg"
+      }
+    }
   },
   {
     "id": "tuscany",
@@ -66,7 +86,17 @@
         "label": "Hospitality.Institute, Old World Wines",
         "url": "https://hospitality.institute/bha203/old-world-wines-europe-journey/"
       }
-    ]
+    ],
+    "image": {
+      "src": "images/regions/tuscany.jpg",
+      "alt": "토스카나 키안티 포도밭 풍경",
+      "credit": {
+        "author": "Jason Parrish",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vineyard_in_Chianti_Tuscany.jpg"
+      }
+    }
   },
   {
     "id": "piedmont",
@@ -87,7 +117,17 @@
         "label": "Vinodivino, What Is An Old World Wine",
         "url": "https://vinodivino.com/blogs/blog/what-is-an-old-world-wine"
       }
-    ]
+    ],
+    "image": {
+      "src": "images/regions/piedmont.jpg",
+      "alt": "피에몬테 포도밭 풍경",
+      "credit": {
+        "author": "Giorgio Montersino",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piedmont_vineyard_in_autumn.jpg"
+      }
+    }
   },
   {
     "id": "rioja",
@@ -106,7 +146,16 @@
         "label": "viavinumwinetours, Wine Region Maps",
         "url": "https://viavinumwinetours.com/en/wine-region-maps/"
       }
-    ]
+    ],
+    "image": {
+      "src": "images/regions/rioja.jpg",
+      "alt": "리오하 포도밭 풍경",
+      "credit": {
+        "author": "Ken Case",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rioja_vineyards.JPG"
+      }
+    }
   },
   {
     "id": "mosel",
@@ -125,7 +174,17 @@
         "label": "oboe.com, Old World Wine Regions",
         "url": "https://oboe.com/learn/mastering-wset-level-3-wine-knowledge-gzqzry/old-world-wine-regions-2"
       }
-    ]
+    ],
+    "image": {
+      "src": "images/regions/mosel.jpg",
+      "alt": "모젤 포도밭 풍경",
+      "credit": {
+        "author": "Friedrich Petersdorff",
+        "license": "CC BY-SA 2.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:080110_zell_mosel.JPG"
+      }
+    }
   },
   {
     "id": "napa-valley",
@@ -149,7 +208,17 @@
         "label": "California Winery Advisor",
         "url": "https://californiawineryadvisor.com/new-world-wine-regions/"
       }
-    ]
+    ],
+    "image": {
+      "src": "images/regions/napa-valley.jpg",
+      "alt": "나파밸리 포도밭 풍경",
+      "credit": {
+        "author": "Rhododendrites",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vineyard_in_Napa_Valley_(01934).jpg"
+      }
+    }
   },
   {
     "id": "central-valley-chile",
@@ -170,7 +239,17 @@
         "label": "Global Wine Authority, New World Wine Regions",
         "url": "https://globalwineauthority.com/new-world-wine-regions/"
       }
-    ]
+    ],
+    "image": {
+      "src": "images/regions/central-valley-chile.jpg",
+      "alt": "센트럴밸리(칠레) 포도밭 풍경",
+      "credit": {
+        "author": "Beatrice Murch",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chilean_vineyard_in_Andes_foothills.jpg"
+      }
+    }
   },
   {
     "id": "barossa-valley",
@@ -189,7 +268,17 @@
         "label": "Global Wine Authority, New World Wine Regions",
         "url": "https://globalwineauthority.com/new-world-wine-regions/"
       }
-    ]
+    ],
+    "image": {
+      "src": "images/regions/barossa-valley.jpg",
+      "alt": "바로사밸리 포도밭 풍경",
+      "credit": {
+        "author": "No machine-readable author provided. ScottDavis assumed (based on copyright claims).",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tanunda.jpg"
+      }
+    }
   },
   {
     "id": "marlborough",
@@ -208,7 +297,16 @@
         "label": "Global Wine Authority, New World Wine Regions",
         "url": "https://globalwineauthority.com/new-world-wine-regions/"
       }
-    ]
+    ],
+    "image": {
+      "src": "images/regions/marlborough.jpg",
+      "alt": "말버러 포도밭 풍경",
+      "credit": {
+        "author": "Bernard Spragg",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_vineyards_of_Marlborough,_New_Zealand;_May_2014.jpg"
+      }
+    }
   },
   {
     "id": "mendoza",
@@ -229,6 +327,16 @@
         "label": "Global Wine Authority, New World Wine Regions",
         "url": "https://globalwineauthority.com/new-world-wine-regions/"
       }
-    ]
+    ],
+    "image": {
+      "src": "images/regions/mendoza.jpg",
+      "alt": "멘도사 포도밭 풍경",
+      "credit": {
+        "author": "David",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vineyard_in_Mendoza,_Argentina.jpg"
+      }
+    }
   }
 ]
